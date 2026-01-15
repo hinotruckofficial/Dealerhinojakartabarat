@@ -29,7 +29,7 @@ try {
     // Samakan format gambar seperti API
     foreach ($artikelData as &$row) {
         if (!empty($row['gambar'])) {
-            $row['gambar'] = "https://official-hino.com/admin/uploads/artikel/" . $row['gambar'];
+            $row['gambar'] = "https://dealerhinojakartabarat.com/admin/uploads/artikel/" . $row['gambar'];
         }
     }
     unset($row);
@@ -46,27 +46,27 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ Judul utama -->
-    <title>Dealer Hino Tangerang | Info Pemesanan Hubungi 0812-1905-5571</title>
+    <title>Dealer Hino Jabodetabek | Authorized Hino Dealer</title>
 
     <!-- ✅ Deskripsi SEO -->
-    <meta name="description" content="Dealer Hino Tangerang — Hubungi 0812-1905-5571 untuk info harga, promo, dan pembelian truk Hino di wilayah Tangerang dan sekitarnya. Layanan cepat dan terpercaya.">
-    <meta name="keywords" content="dealer hino, dealer hino jakarta, dealer hino jabodetabek, dealer hino jakarta barat, dealer hino jakarta timur, dealer hino jakarta utara, dealer hino jakarta selatan, dealer hino tangerang, dealer hino bekasi, dealer hino depok, dealer hino bogor, dealer hino bandung, dealer resmi hino indonesia, sales hino, promo hino, harga truk hino, jual truk hino, kredit truk hino, cicilan truk hino, hino ready stock, stok unit hino terbaru, harga hino terbaru 2025, promo kredit hino, dealer hino tangerang, hino tangerang, sales hino tangerang, harga truk hino tangerang, promo hino tangerang, kredit truk hino tangerang, dealer hino resmi tangerang, dealer hino cikupa, dealer hino cikupa tangerang">
-    <meta name="author" content="Dealer Hino Tangerang">
+    <meta name="description" content="Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
+    <meta name="keywords" content="dealer hino, dealer hino jakarta, dealer hino jabodetabek, dealer hino jakarta barat, dealer hino jakarta timur, dealer hino jakarta utara, dealer hino jakarta selatan, Dealer Hino Jabodetabek, dealer hino bekasi, dealer hino depok, dealer hino bogor, dealer hino bandung, dealer resmi hino indonesia, sales hino, promo hino, harga truk hino, jual truk hino, kredit truk hino, cicilan truk hino, hino ready stock, stok unit hino terbaru, harga hino terbaru 2025, promo kredit hino, Dealer Hino Jabodetabek, hino tangerang, sales hino tangerang, harga truk hino tangerang, promo hino tangerang, kredit truk hino tangerang, dealer hino resmi tangerang, dealer hino cikupa, dealer hino cikupa tangerang">
+    <meta name="author" content="Dealer Hino Jabodetabek">
 
     <!-- ✅ Canonical URL -->
-    <link rel="canonical" href="https://official-hino.com/" />
+    <link rel="canonical" href="https://dealerhinojakartabarat.com/" />
 
-    <!-- ✅ Tambahkan ini agar judul 'Dealer Hino Tangerang' muncul di atas domain (seperti di Indomobil Hino) -->
-    <meta name="application-name" content="Dealer Hino Tangerang">
-    <meta name="apple-mobile-web-app-title" content="Dealer Hino Tangerang">
+    <!-- ✅ Tambahkan ini agar judul 'Dealer Hino Jabodetabek' muncul di atas domain (seperti di Indomobil Hino) -->
+    <meta name="application-name" content="Dealer Hino Jabodetabek">
+    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jabodetabek">
 
     <!-- ✅ Open Graph untuk tampilan di Google / Facebook / WhatsApp -->
-    <meta property="og:site_name" content="Dealer Hino Tangerang">
-    <meta property="og:title" content="Dealer Hino Tangerang | Info Pemesanan Hubungi 0812-1905-5571">
-    <meta property="og:description" content="Dealer Hino Tangerang. Hubungi 0812-1905-5571 untuk promo dan harga truk Hino terbaru.">
-    <meta property="og:url" content="https://official-hino.com/">
+    <meta property="og:site_name" content="Dealer Hino Jabodetabek">
+    <meta property="og:title" content="Dealer Hino Jabodetabek | Authorized Hino Dealer">
+    <meta property="og:description" content="Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
+    <meta property="og:url" content="https://dealerhinojakartabarat.com/">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://official-hino.com/img/hino.png">
+    <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino.png">
 
     <!-- Favicon untuk semua browser modern -->
     <link rel="icon" type="image/png" sizes="512x512" href="/favicon_512.png">
@@ -94,9 +94,9 @@ try {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Dealer Hino Tangerang",
-      "alternateName": "Official Hino",
-      "url": "https://official-hino.com"
+      "name": "Dealer Hino Jabodetabek",
+      "alternateName": "Dealer Hino Resmi",
+      "url": "https://dealerhinojakartabarat.com"
     }
     </script>
     
@@ -104,9 +104,9 @@ try {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Dealer Hino Tangerang",
-      "url": "https://official-hino.com",
-      "logo": "https://official-hino.com/favicon_512.png"
+      "name": "Dealer Hino Jabodetabek",
+      "url": "https://dealerhinojakartabarat.com",
+      "logo": "https://dealerhinojakartabarat.com/favicon_512.png"
     }
     </script>
     
@@ -114,26 +114,26 @@ try {
     {
       "@context": "https://schema.org",
       "@type": "AutoDealer",
-      "@id": "https://official-hino.com/#dealer",
-      "name": "Dealer Hino Tangerang",
-      "alternateName": "Dealer Hino Tangerang",
-      "url": "https://official-hino.com/",
-      "image": "https://official-hino.com/img/hino300produk.png",
-      "logo": "https://official-hino.com/img/hino300produk.png",
-      "description": "Dealer Resmi Hino Tangerang - Menyediakan berbagai jenis truk dan bus Hino dengan layanan terbaik. Dapatkan promo menarik dan layanan kredit untuk wilayah Tangerang dan sekitarnya.",
-      "telephone": "+62-812-1905-5571",
+      "@id": "https://dealerhinojakartabarat.com/#dealer",
+      "name": "Dealer Hino Jabodetabek",
+      "alternateName": "Dealer Hino Jabodetabek",
+      "url": "https://dealerhinojakartabarat.com/",
+      "image": "https://dealerhinojakartabarat.com/img/hino300produk.png",
+      "logo": "https://dealerhinojakartabarat.com/img/hino300produk.png",
+      "description": "Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.",
+      "telephone": "+62-856-9291-1733",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Jl. Raya Serang No.Km.18,8, Sukanagara, Kec. Cikupa",
-        "addressLocality": "Kabupaten Tangerang",
-        "addressRegion": "Banten",
-        "postalCode": "15710",
+        "streetAddress": "Ruko Palm Crown HH4/19, Jl. Perumahan Taman Surya No.5, RT.7/RW.3, Pegadungan, Kec. Kalideres, Kota Jakarta Barat",
+        "addressLocality": "Kota Jakarta Barat",
+        "addressRegion": "Daerah Khusus Ibukota Jakarta",
+        "postalCode": "11830",
         "addressCountry": "ID"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": -6.2500,
-        "longitude": 106.5000
+        "latitude": -6.1318,
+        "longitude": 106.7028
       },
       "openingHoursSpecification": [
         {
@@ -151,9 +151,9 @@ try {
         }
       ],
       "sameAs": [
-        "https://www.facebook.com/official-hino",
-        "https://www.instagram.com/official_hino.id",
-        "https://www.tiktok.com/@official_hino"
+        "https://www.facebook.com/hinotruckofficial",
+        "https://www.instagram.com/hinotruckofficial",
+        "https://www.tiktok.com/@hinotruckofficial"
       ]
     }
     </script>
@@ -167,26 +167,15 @@ try {
           "@type": "ListItem",
           "position": 1,
           "name": "Beranda",
-          "item": "https://official-hino.com"
+          "item": "https://dealerhinojakartabarat.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Dealer Hino Tangerang"
+          "name": "Dealer Hino Jabodetabek"
         }
       ]
     }
-    </script>
-
-
-
-    <!-- ✅ Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8BPF492E6Z');
     </script>
 
     <!-- ✅ Script -->
@@ -198,7 +187,7 @@ try {
     <header>
       <div class="container header-content navbar">
         <div class="header-title">
-          <a href="https://official-hino.com">
+          <a href="https://dealerhinojakartabarat.com">
             <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
           </a>
         </div>
@@ -228,19 +217,21 @@ try {
     <!-- Section: Promo Utama -->
     <section id="promo-utama" class="promo-section fade-element">
       <div class="promo-text">
-        <h2>Dapatkan Harga dan Penawaran Terbaik Langsung dari Dealer Resmi Hino Tangerang</h2>
+        <h2>Dapatkan Harga dan Penawaran Terbaik Langsung dari Dealer Hino Jabodetabek Authorized Dealer Hino</h2>
         <ul>
           <li>Ingin harga terbaik untuk semua jenis truk Hino?</li>
           <li>Bingung memilih kendaraan yang tepat untuk bisnis Anda?</li>
           <li>Butuh pelayanan cepat, ramah, dan profesional?</li>
-          <li>Hubungi Dennis sekarang juga dan dapatkan solusi terbaik!</li>
+          <li>Hubungi Asdi sekarang juga dan dapatkan solusi terbaik!</li>
         </ul>
         <p>
-          Denis Hino siap membantu Anda mendapatkan truk Hino baru dengan harga kompetitif untuk seluruh Indonesia,
-          <strong>terutama di Tangerang</strong>. Pelayanan cepat, terpercaya, dan tanpa ribet menanti Anda!
+          Asdi Hino sebagai <strong>Sales Dealer Hino Jabodetabek Authorized Dealer Resmi Hino</strong> siap membantu Anda mendapatkan
+          <strong>truk dan bus Hino baru</strong> dengan harga kompetitif untuk seluruh Indonesia,
+          khususnya wilayah <strong>Jakarta, Tangerang, dan Jabodetabek</strong>.
+          Nikmati proses mudah, respon cepat, serta layanan purna jual resmi Hino.
         </p>
         <div class="promo-buttons">
-          <a href="https://wa.me/6281219055571" class="btn-primary" target="_blank" rel="noopener noreferrer">Konsultasi Pembelian</a>
+          <a href="https://wa.me/6285692911733" class="btn-primary" target="_blank" rel="noopener noreferrer">Konsultasi Pembelian</a>
         </div>
       </div>
       <img src="img/hino.png" alt="Truk Hino Hijau" loading="lazy" class="promo-main-image" />
@@ -251,8 +242,8 @@ try {
       <div class="hino-container">
         <div class="hino-heading">
           <h5>PRODUK & LAYANAN</h5>
-          <h2>HINO TANGERANG</h2>
-          <p>Kami melayani jasa penyediaan unit Truk & Bus, layanan service dan penjualan spare part merk Hino.</p>
+          <h2>HINO JABODETABEK</h2>
+          <p>Kami melayani jasa penyediaan unit Truk Hino Dutro, Hino Ranger & Bus, layanan service dan penjualan spare part merk Hino.</p>
         </div>
 
         <div class="hino-cards">
@@ -284,7 +275,7 @@ try {
         <div class="product">
           <img src="img/hino300produk.png" alt="Hino 300 Dutro" loading="lazy" />
           <h3>
-            <a href="https://official-hino.com/hino300" target="_blank" rel="noopener noreferrer">Hino 300 Series (Dutro)</a>
+            <a href="https://dealerhinojakartabarat.com/hino300" target="_blank" rel="noopener noreferrer">Hino 300 Series (Dutro)</a>
           </h3>
           <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
         </div>
@@ -292,7 +283,7 @@ try {
         <div class="product">
           <img src="img/hino500produk.png" alt="Hino 500 Ranger" loading="lazy" />
           <h3>
-            <a href="https://official-hino.com/hino500" target="_blank" rel="noopener noreferrer">Hino 500 Series (Ranger)</a>
+            <a href="https://dealerhinojakartabarat.com/hino500" target="_blank" rel="noopener noreferrer">Hino 500 Series (Ranger)</a>
           </h3>
           <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
         </div>
@@ -300,7 +291,7 @@ try {
         <div class="product">
           <img src="img/hinobusproduk.png" alt="Hino Bus Series" loading="lazy" />
           <h3>
-            <a href="https://official-hino.com/hinobus" target="_blank" rel="noopener noreferrer">Hino Bus Series</a>
+            <a href="https://dealerhinojakartabarat.com/hinobus" target="_blank" rel="noopener noreferrer">Hino Bus Series</a>
           </h3>
           <p>Solusi transportasi penumpang dengan kenyamanan terbaik.</p>
         </div>
@@ -380,7 +371,7 @@ try {
           <img src="img/cssupport.png" alt="WhatsApp" />
           <div>
             <strong>Whatsapp</strong><br />
-            +62 812-1905-5571
+            +62 856-9291-1733
           </div>
         </div>
 
@@ -390,7 +381,7 @@ try {
           <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone" />
           <div>
             <strong>Phone Call</strong><br />
-            +62 812-1905-5571
+            +62 856-9291-1733
           </div>
         </div>
 
@@ -400,7 +391,7 @@ try {
           <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="Email" />
           <div>
             <strong>Email</strong><br />
-            denishinoindonesia@gmail.com
+            hinotruckofficial@gmail.com
           </div>
         </div>
       </div>
