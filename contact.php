@@ -140,7 +140,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </script>
 
     <meta name="robots" content="index, follow" />
-    <link rel="icon" type="image/png" href="/img/favicon_512.png" />
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" type="image/png" href="/favicon_512.png" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
 
     <!-- CSS -->
