@@ -5,7 +5,7 @@
 /* Container Section */
 .content-section {
   padding: 60px 20px;
-  background: linear-gradient(180deg, #f7f7f7 0%, #e8f5e9 100%);
+  background: linear-gradient(180deg, #f6faf8 0%, #e2f1ec 100%);
 }
 
 /* Grid Layout */
@@ -22,20 +22,20 @@
 .blog-post {
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(11, 61, 46, 0.12);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   width: 300px;
   min-height: 480px;
-  position: relative; /* diperlukan untuk full-link */
+  position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Efek Hover */
 .blog-post:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 18px rgba(11, 61, 46, 0.2);
 }
 
 /* Gambar Artikel */
@@ -48,7 +48,7 @@
 /* Judul Artikel */
 .blog-post h2 {
   font-size: 18px;
-  color: #333;
+  color: #1f2933;
   margin: 20px 20px 10px 20px;
   font-weight: 700;
   line-height: 1.4;
@@ -57,19 +57,19 @@
 
 .blog-post h2 a {
   text-decoration: none;
-  color: #333;
+  color: #1f2933;
   position: relative;
   z-index: 2;
 }
 
 .blog-post h2 a:hover {
-  color: #007bff;
+  color: #0b3d2e;
 }
 
 /* Deskripsi Singkat */
 .blog-post p {
   font-size: 14px;
-  color: #555;
+  color: #4b5563;
   margin: 0 20px 20px 20px;
   line-height: 1.6;
   flex-grow: 1;
@@ -87,12 +87,13 @@
 
 .blog-post .card-footer a {
   font-size: 14px;
-  color: #007bff;
-  font-weight: bold;
+  color: #0b3d2e;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .blog-post .card-footer a:hover {
+  color: #1e7f5c;
   text-decoration: underline;
 }
 
@@ -100,7 +101,7 @@
 .artikel-isi {
   font-size: 16px;
   line-height: 1.8;
-  color: #333;
+  color: #1f2933;
 }
 
 /* Full clickable link */

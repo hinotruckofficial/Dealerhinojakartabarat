@@ -8,7 +8,7 @@
 .products-section .section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #b80000;
+  color: #0b3d2e;
   margin-bottom: 2rem;
 }
 
@@ -23,9 +23,9 @@
 .product {
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(11, 61, 46, 0.1);
   text-align: center;
   max-width: 300px;
   flex: 1 1 280px;
@@ -35,21 +35,21 @@
 
 .product img {
   width: 100%;
-  height: auto; /* tinggi menyesuaikan proporsi gambar */
+  height: auto;
   display: block;
-  border-bottom: 3px solid #b80000;
+  border-bottom: 3px solid #0b3d2e;
   border-radius: 6px 6px 0 0;
 }
 
 .product h3 {
   font-size: 18px;
   margin: 0.8rem 0 0.4rem;
-  color: #b80000;
+  color: #0b3d2e;
 }
 
 .product p {
   font-size: 14px;
-  color: #555;
+  color: #374151;
   padding: 0 15px 15px;
   line-height: 1.6;
   flex-grow: 1;
@@ -60,25 +60,25 @@
   .products {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem; /* lebih rapih jarak antar produk */
+    gap: 1.5rem;
   }
 
   .product {
-    max-width: 95%; /* lebih luas, biar judul tidak terpotong */
-    flex: none; /* hentikan fleksibel agar ukuran sesuai max-width */
+    max-width: 95%;
+    flex: none;
   }
 
   .product img {
     width: 100%;
     height: auto;
     border-radius: 6px 6px 0 0;
-    object-fit: cover; /* biar tetap proporsional */
+    object-fit: cover;
   }
 
   .product h3 {
-    font-size: 18px; /* tetap terlihat jelas */
+    font-size: 18px;
     margin: 0.8rem 0 0.5rem;
-    word-wrap: break-word; /* pastikan teks panjang tetap muncul */
+    word-wrap: break-word;
   }
 
   .product p {

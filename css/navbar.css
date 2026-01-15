@@ -27,7 +27,7 @@ a {
 img {
   max-width: 100%;
   display: block;
-  object-fit: cover; /* Pastikan gambar menyesuaikan ukuran */
+  object-fit: cover;
 }
 
 /* Container */
@@ -35,7 +35,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
-  width: 100%; /* Memastikan container mengisi seluruh lebar layar */
+  width: 100%;
 }
 
 /* Navigation */
@@ -56,18 +56,20 @@ img {
   transition: color 0.3s ease;
 }
 
+/* ACTIVE & HOVER → HIJAU TUA */
 .nav a.active {
-  color: #b80000;
+  color: #0b3d2e;
 }
 
 .nav a:hover {
-  color: #b80000;
+  color: #0b3d2e;
 }
 
 .hamburger-menu {
   display: none;
   font-size: 28px;
   cursor: pointer;
+  color: #0b3d2e;
 }
 
 /* Responsive */
@@ -90,7 +92,7 @@ img {
     top: 80px;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px 0;
     z-index: 100;
   }
@@ -108,12 +110,12 @@ img {
   }
 }
 
-/* Untuk layar lebih kecil dari 576px (untuk mobile sangat kecil) */
+/* Mobile sangat kecil */
 @media (max-width: 576px) {
   html,
   body {
-    height: 100%; /* Membuat body dan html mengambil seluruh tinggi layar pada mobile */
-    overflow-x: hidden; /* Menghindari scroll horizontal pada mobile */
+    height: 100%;
+    overflow-x: hidden;
   }
 
   .nav {

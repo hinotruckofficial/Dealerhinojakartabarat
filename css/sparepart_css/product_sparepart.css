@@ -11,6 +11,7 @@
   font-size: 2rem;
   font-weight: 700;
   margin: 0;
+  color: #0b3d2e;
 }
 
 .header img {
@@ -18,6 +19,7 @@
   margin-left: 10px;
 }
 
+/* ===== Gallery Wrapper ===== */
 .gallery-wrapper {
   width: 100%;
   max-width: 1200px;
@@ -26,6 +28,7 @@
   box-sizing: border-box;
 }
 
+/* ===== Gallery Grid ===== */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -34,13 +37,14 @@
   justify-content: center;
 }
 
+/* ===== Gallery Item ===== */
 .gallery-item {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
+  border: 1px solid #d1e7dd;
   border-radius: 10px;
   padding: 16px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(11, 61, 46, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,22 +52,24 @@
 
 .gallery-item:hover {
   transform: scale(1.03);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(11, 61, 46, 0.18);
 }
 
+/* ===== Gallery Image ===== */
 .gallery-item img {
   width: 100%;
   height: 240px;
   object-fit: contain;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #f6faf8;
   padding: 10px;
 }
 
+/* ===== Gallery Title ===== */
 .gallery-item p {
   margin-top: 12px;
   font-size: 16px;
-  font-weight: bold;
-  color: #333;
+  font-weight: 700;
+  color: #0b3d2e;
   text-align: center;
 }

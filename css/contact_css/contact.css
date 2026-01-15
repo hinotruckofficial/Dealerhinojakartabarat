@@ -1,22 +1,24 @@
 /* Khusus untuk section Contact Us */
 .wrapper {
   font-family: Arial, sans-serif;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   max-width: 1200px;
   margin: 40px auto;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 12px rgba(11, 61, 46, 0.1);
 }
 
 .wrapper h2 {
   text-align: center;
   margin-bottom: 10px;
+  color: #0b3d2e;
 }
 
 .wrapper p {
   text-align: center;
   margin-bottom: 20px;
+  color: #374151;
 }
 
 .wrapper .container {
@@ -30,15 +32,16 @@
 .wrapper .map1 {
   flex: 1 1 400px;
   padding: 20px;
-  background-color: #fafafa;
+  background-color: #f6faf8;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(11, 61, 46, 0.05);
 }
 
 .wrapper label {
   display: block;
   margin-top: 15px;
   font-weight: bold;
+  color: #1f2933;
 }
 
 .wrapper input,
@@ -46,7 +49,7 @@
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #d1e7dd;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -54,15 +57,15 @@
 .wrapper button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #b80000;
+  background-color: #0b3d2e;
   border: none;
-  color: #fff;
+  color: #ffffff;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .wrapper button:hover {
-  background-color: #b80000;
+  background-color: #06281e;
 }
 
 .wrapper .map1 iframe {

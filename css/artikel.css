@@ -1,7 +1,7 @@
 /* ======== Artikel Container ======== */
 .detail-artikel {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #f6faf8;
   font-family: "Segoe UI", sans-serif;
 }
 
@@ -20,16 +20,16 @@
 /* ======== Artikel Utama ======== */
 .artikel-main {
   flex: 1 1 65%;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(11, 61, 46, 0.08);
 }
 
 .artikel-main h1 {
   font-size: 28px;
   margin-bottom: 15px;
-  color: #333;
+  color: #1f2933;
 }
 
 .artikel-main .featured-image {
@@ -41,7 +41,7 @@
 
 .isi-artikel p {
   font-size: 16px;
-  color: #444;
+  color: #374151;
   margin-bottom: 1.5em;
   line-height: 1.8;
 }
@@ -51,16 +51,16 @@
   display: inline-block;
   margin-top: 20px;
   text-decoration: none;
-  background-color: #007b45;
-  color: #fff;
+  background-color: #0b3d2e;
+  color: #ffffff;
   padding: 10px 18px;
   border-radius: 6px;
   font-size: 14px;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
 }
 
 .btn-kembali:hover {
-  background-color: #005e35;
+  background-color: #06281e;
 }
 
 /* ======== Sidebar ======== */
@@ -69,18 +69,18 @@
 }
 
 .sidebar-section {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   margin-bottom: 25px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(11, 61, 46, 0.08);
 }
 
 .sidebar-section h3 {
   margin-bottom: 15px;
   font-size: 18px;
-  color: #007b45;
-  border-bottom: 2px solid #007b45;
+  color: #0b3d2e;
+  border-bottom: 2px solid #0b3d2e;
   padding-bottom: 5px;
 }
 
@@ -95,12 +95,12 @@
 
 .sidebar-section ul li a {
   text-decoration: none;
-  color: #333;
-  transition: color 0.3s;
+  color: #1f2933;
+  transition: color 0.3s ease;
 }
 
 .sidebar-section ul li a:hover {
-  color: #007b45;
+  color: #1e7f5c;
 }
 
 /* ======== Related Posts ======== */
@@ -111,8 +111,8 @@
 .related-posts h2 {
   font-size: 22px;
   margin-bottom: 20px;
-  color: #007b45;
-  border-bottom: 2px solid #007b45;
+  color: #0b3d2e;
+  border-bottom: 2px solid #0b3d2e;
   padding-bottom: 6px;
 }
 
@@ -124,11 +124,11 @@
 
 .related-item {
   flex: 1 1 calc(33.333% - 20px);
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s;
+  box-shadow: 0 4px 12px rgba(11, 61, 46, 0.08);
+  transition: transform 0.3s ease;
 }
 
 .related-item:hover {
@@ -145,7 +145,7 @@
 .related-item strong {
   display: block;
   font-size: 15px;
-  color: #333;
+  color: #1f2933;
   text-decoration: none;
 }
 

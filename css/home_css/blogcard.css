@@ -1,18 +1,20 @@
 /* Blog Section */
 .blog-section {
   padding: 60px 20px;
-  background-color: #f8f9fa;
+  background-color: #f6faf8;
   text-align: center;
 }
 
 .blog-section h2 {
   font-size: 32px;
   margin-bottom: 10px;
+  color: #0b3d2e;
 }
 
 .blog-section p {
   font-size: 16px;
   margin-bottom: 40px;
+  color: #374151;
 }
 
 /* Blog Grid */
@@ -25,15 +27,15 @@
 
 /* Blog Card */
 .blog-card {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   overflow: hidden;
   width: 300px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(11, 61, 46, 0.12);
   text-align: left;
-  min-height: 450px; /* tambahkan tinggi minimum agar semua box sejajar */
+  min-height: 450px;
 }
 
 /* Gambar */
@@ -56,38 +58,39 @@
   font-size: 18px;
   margin-bottom: 10px;
   line-height: 1.4;
-  min-height: 60px; /* tinggi tetap agar sejajar */
+  min-height: 60px;
 }
 
 .blog-card h3 a {
   text-decoration: none;
-  color: #333;
+  color: #1f2933;
   display: inline-block;
 }
 
 .blog-card h3 a:hover {
-  color: #007bff;
+  color: #0b3d2e;
 }
 
 /* Ringkasan Isi Artikel */
 .blog-card p {
   font-size: 14px;
-  color: #555;
+  color: #374151;
   margin-bottom: 15px;
   flex-grow: 1;
   line-height: 1.4;
-  min-height: 80px; /* agar isi artikel sejajar */
+  min-height: 80px;
 }
 
 /* Tombol Read More */
 .blog-card a.read-more {
-  color: #007bff;
+  color: #0b3d2e;
   text-decoration: none;
   font-weight: bold;
   margin-top: auto;
-  align-self: flex-start; /* pastikan rata kiri */
+  align-self: flex-start;
 }
 
 .blog-card a.read-more:hover {
+  color: #06281e;
   text-decoration: underline;
 }

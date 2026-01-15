@@ -11,19 +11,19 @@
   padding: 3.5rem 1.5rem;
   background: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 16px rgba(11, 61, 46, 0.08);
+  font-family: "Poppins", sans-serif;
 }
 
 /* === TEKS PROMO === */
 #promo-utama .promo-text {
   flex: 1 1 420px;
   min-width: 300px;
-  color: #333;
+  color: #1f2933;
 }
 
 #promo-utama .promo-text h2 {
-  color: #b80000;
+  color: #0b3d2e;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.4;
@@ -43,7 +43,7 @@
 }
 
 #promo-utama .promo-text p {
-  color: #b80000;
+  color: #0b3d2e;
   font-size: 1.05rem;
   line-height: 1.7;
   margin-bottom: 1.8rem;
@@ -57,8 +57,8 @@
 }
 
 #promo-utama .btn-primary {
-  background: #b80000;
-  color: #fff;
+  background: #0b3d2e;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.05rem;
@@ -66,13 +66,13 @@
   border-radius: 8px;
   display: inline-block;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 6px rgba(46, 125, 50, 0.25);
+  box-shadow: 0 3px 6px rgba(11, 61, 46, 0.25);
 }
 
 #promo-utama .btn-primary:hover {
-  background: #b80000;
+  background: #06281e;
   transform: translateY(-2px);
-  box-shadow: 0 5px 12px rgba(46, 125, 50, 0.35);
+  box-shadow: 0 5px 12px rgba(11, 61, 46, 0.35);
 }
 
 /* === GAMBAR UTAMA PROMO === */
@@ -84,7 +84,7 @@
   height: auto;
   object-fit: contain;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 12px rgba(11, 61, 46, 0.12);
 }
 
 /* ===========================================

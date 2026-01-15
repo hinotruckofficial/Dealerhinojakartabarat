@@ -1,7 +1,7 @@
 /* Keunggulan Kami */
 .advantages {
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: "Arial", sans-serif;
 }
 
@@ -16,14 +16,14 @@
 }
 
 .advantages-image img {
-  width: 500px; /* atur sesuai kebutuhan, misalnya 200px, 250px, dll */
+  width: 500px;
   height: auto;
   object-fit: cover;
 }
 
 .advantages-content {
-  max-width: 480px; /* diperkecil dari 600px */
-  margin: 0 auto; /* posisi di tengah */
+  max-width: 480px;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
@@ -32,7 +32,7 @@
 .advantages-content h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #0a1950;
+  color: #0b3d2e;
   margin-bottom: 24px;
 }
 
@@ -51,17 +51,18 @@
 
 .advantage-item h4 {
   font-size: 20px;
-  color: #0a1950;
+  color: #0b3d2e;
   margin: 0 0 6px 0;
 }
 
 .advantage-item p {
   margin: 0;
   font-size: 16px;
-  color: #333;
+  color: #1f2933;
 }
+
 .advantages-container {
-  flex-wrap: nowrap; /* ini mencegah elemen turun ke bawah */
+  flex-wrap: nowrap;
 }
 
 .advantage-item {
@@ -76,7 +77,7 @@
   }
 
   .advantages-image {
-    display: none; /* Gambar disembunyikan saat mobile */
+    display: none;
   }
 
   .advantages-content {

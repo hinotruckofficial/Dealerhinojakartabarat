@@ -1,6 +1,6 @@
 header {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d1e7dd;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -16,22 +16,20 @@ header {
 .header-title {
   font-size: 24px;
   font-weight: bold;
-  color: #1e3a8a;
+  color: #0b3d2e;
 }
 
 /* Hero */
 .hero {
   background: url("/img/header.jpg") no-repeat center center;
   background-size: cover;
-  color: white;
+  color: #ffffff;
   padding: 120px 0;
   text-align: center;
   position: relative;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 60px 0;
-  color: #fff;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -39,11 +37,11 @@ header {
 }
 
 .hero .container {
-  background-color: rgba(0, 0, 0, 0.6); /* Transparan gelap */
+  background-color: rgba(11, 61, 46, 0.6);
   padding: 40px;
   border-radius: 12px;
   max-width: 800px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .contact-item {
@@ -57,11 +55,8 @@ header {
 .hero::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(8, 9, 0, 0.5); /* lapisan gelap semi-transparan */
+  inset: 0;
+  background-color: rgba(6, 40, 30, 0.5);
   z-index: 1;
 }
 
@@ -79,8 +74,8 @@ header {
 }
 
 .btn {
-  background-color: #facc15;
-  color: #000; /* ubah ke hitam */
+  background-color: #1e7f5c;
+  color: #ffffff;
   padding: 10px 24px;
   border-radius: 6px;
   font-weight: bold;
@@ -89,26 +84,24 @@ header {
 }
 
 .btn-contact {
-  color: #000 !important; /* Warna hitam, pakai !important jika perlu menimpa */
+  color: #ffffff !important;
 }
 
 .btn:hover {
-  background-color: #eab308;
+  background-color: #06281e;
 }
 
 /* Hero 1 */
 .hero1 {
   background: url("/img/pwb.jpg") no-repeat center center;
   background-size: cover;
-  color: white;
+  color: #ffffff;
   padding: 120px 0;
   text-align: center;
   position: relative;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 60px 0;
-  color: #fff;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -116,11 +109,11 @@ header {
 }
 
 .hero1 .container {
-  background-color: rgba(0, 0, 0, 0.6); /* Transparan gelap */
+  background-color: rgba(11, 61, 46, 0.6);
   padding: 40px;
   border-radius: 12px;
   max-width: 800px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .contact-item {
@@ -134,11 +127,8 @@ header {
 .hero1::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(8, 9, 0, 0.5); /* lapisan gelap semi-transparan */
+  inset: 0;
+  background-color: rgba(6, 40, 30, 0.5);
   z-index: 1;
 }
 
@@ -156,15 +146,15 @@ header {
 }
 
 .btn {
-  background-color: #facc15;
-  color: #1e3a8a;
+  background-color: #1e7f5c;
+  color: #ffffff;
   padding: 10px 24px;
   border-radius: 6px;
   font-weight: bold;
   transition: background-color 0.3s;
-  margin-top: 24px; /* Tambahkan jarak atas */
+  margin-top: 24px;
 }
 
 .btn:hover {
-  background-color: #eab308;
+  background-color: #06281e;
 }

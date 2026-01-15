@@ -4,7 +4,7 @@
 }
 
 .contact-tabs {
-  background: linear-gradient(135deg, #b80000, #3a0000);
+  background: linear-gradient(135deg, #0b3d2e, #06281e);
   text-align: center;
   padding: 10px 0;
   border-radius: 3px 3px 0 0;
@@ -13,13 +13,13 @@
 .contact-tabs .tab {
   display: inline-block;
   padding: 10px 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   position: relative;
 }
 
 .contact-info {
-  background-color: #eaeaea;
+  background-color: #f6faf8;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@
   align-items: center;
   gap: 10px;
   font-size: 16px;
-  color: #333;
+  color: #1f2933;
   flex: 1;
   min-width: 250px;
 }
@@ -47,7 +47,7 @@
 .divider {
   width: 1px;
   height: 40px;
-  background-color: #ccc;
+  background-color: #d1e7dd;
 }
 
 @media (max-width: 768px) {
