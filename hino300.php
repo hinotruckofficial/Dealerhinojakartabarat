@@ -5,45 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ Title -->
-    <title>Dealer Hino Tangerang | Hino 300 Series Resmi</title>
+    <title>Dealer Hino Jabodetabek | Hino 300 Series Resmi</title>
 
     <!-- ✅ Meta Description -->
     <meta
       name="description"
-      content="Dealer Hino Tangerang Resmi - Hubungi 0812 1905 5571 untuk informasi Hino 300 Series, harga, promo, dan pemesanan unit terbaru. Layanan cepat & terpercaya."
+      content="Dealer Hino Jabodetabek Resmi - Hubungi 0856-9291-1733 untuk informasi Hino 300 Series, harga, promo, dan pemesanan unit terbaru. Layanan cepat & terpercaya."
     />
 
     <!-- ✅ Meta Keywords -->
     <meta
       name="keywords"
-      content="dealer hino tangerang, hino 300 series, hino tangerang, dealer hino resmi, harga hino 500, promo hino 500, hino tangerang resmi, sales hino tangerang, hino indonesia, dealer hino terdekat, hino jabodetabek, truk hino 300, spesifikasi hino 300, cicilan truk hino, kredit hino 300, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
+      content="Dealer Hino Jabodetabek, hino 300 series, hino tangerang, dealer hino resmi, harga hino 500, promo hino 500, hino tangerang resmi, sales hino tangerang, hino indonesia, dealer hino terdekat, hino jabodetabek, truk hino 300, spesifikasi hino 300, cicilan truk hino, kredit hino 300, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
     />
 
     <!-- ✅ Canonical URL -->
-    <link rel="canonical" href="https://official-hino.com/hino300" />
+    <link rel="canonical" href="https://dealerhinojakartabarat.com/hino300" />
 
     <!-- ✅ Robots -->
     <meta name="robots" content="index, follow" />
 
     <!-- ✅ Brand Title (untuk browser dan share link) -->
-    <meta name="application-name" content="Dealer Hino Tangerang" />
-    <meta name="apple-mobile-web-app-title" content="Dealer Hino Tangerang" />
+    <meta name="application-name" content="Dealer Hino Jabodetabek" />
+    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jabodetabek" />
 
     <!-- ✅ Open Graph (Facebook, WhatsApp, LinkedIn, dsb) -->
-    <meta property="og:site_name" content="Dealer Hino Tangerang" />
-    <meta property="og:title" content="Dealer Hino Tangerang | Hino 300 Series Resmi" />
-    <meta property="og:description" content="Dealer Hino Tangerang Resmi - Hubungi 0812 1905 5571 untuk informasi Hino 500 Series, harga, dan promo terbaru." />
-    <meta property="og:url" content="https://official-hino.com/hino300" />
+    <meta property="og:site_name" content="Dealer Hino Jabodetabek" />
+    <meta property="og:title" content="Dealer Hino Jabodetabek | Hino 300 Series Resmi" />
+    <meta property="og:description" content="Dealer Hino Jabodetabek Resmi - Hubungi 0812 1905 5571 untuk informasi Hino 500 Series, harga, dan promo terbaru." />
+    <meta property="og:url" content="https://dealerhinojakartabarat.com/hino300" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://official-hino.com/img/hino.png" />
+    <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino.png" />
 
     <!-- JSON -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Dealer Hino Tangerang",
-      "url": "https://official-hino.com"
+      "name": "Dealer Hino Jabodetabek",
+      "url": "https://dealerhinojakartabarat.com"
     }
     </script>
     
@@ -51,27 +51,27 @@
     {
       "@context": "https://schema.org",
       "@type": "AutoDealer",
-      "@id": "https://official-hino.com/#dealer",
-      "name": "Dealer Hino Tangerang",
+      "@id": "https://dealerhinojakartabarat.com/#dealer",
+      "name": "Dealer Hino Jabodetabek",
       "alternateName": "Dealer Resmi Hino Tangerang",
-      "url": "https://official-hino.com/",
-      "image": "https://official-hino.com/img/hino300produk.png",
-      "logo": "https://official-hino.com/favicon_512.png",
+      "url": "https://dealerhinojakartabarat.com/",
+      "image": "https://dealerhinojakartabarat.com/img/hino300produk.png",
+      "logo": "https://dealerhinojakartabarat.com/favicon_512.png",
       "description": "Dealer Resmi Hino Tangerang.",
-      "telephone": "+62-812-1905-5571",
+      "telephone": "+62-856-9291-1733",
       "priceRange": "$$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Jl. Raya Serang No.Km.18,8, Sukanagara, Kec. Cikupa",
-        "addressLocality": "Kabupaten Tangerang",
-        "addressRegion": "Banten",
-        "postalCode": "15710",
+        "streetAddress": "Ruko Palm Crown HH4/19, Jl. Perumahan Taman Surya No.5, RT.7/RW.3, Pegadungan, Kec. Kalideres, Kota Jakarta Barat",
+        "addressLocality": "Kota Jakarta Barat",
+        "addressRegion": "Daerah Khusus Ibukota Jakarta",
+        "postalCode": "11830",
         "addressCountry": "ID"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": -6.1567,
-        "longitude": 106.6901
+        "latitude": -6.1318,
+        "longitude": 106.7028
       },
       "openingHoursSpecification": [
         {
@@ -105,13 +105,13 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Beranda",
-          "item": "https://official-hino.com"
+          "item": "https://dealerhinojakartabarat.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Hino 300 Series",
-          "item": "https://official-hino.com/hino300"
+          "item": "https://dealerhinojakartabarat.com/hino300"
         }
       ]
     }
@@ -153,15 +153,6 @@
       }
     </style>
 
-    <!-- ✅ Google Tag -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-8BPF492E6Z');
-    </script>
-
     <!-- ✅ JS -->
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
@@ -173,7 +164,7 @@
       <header>
         <div class="container header-content navbar">
           <div class="header-title">
-            <a href="https://official-hino.com">
+            <a href="https://dealerhinojakartabarat.com">
               <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
             </a>
           </div>
@@ -207,7 +198,7 @@
         <div class="gallery">
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115SD"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115SD"
             >
               <img src="img/300series/115SDL.png" alt="UC" />
               <p>Hino Dutro 115 SD</p>
@@ -215,7 +206,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115SDR"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115SDR"
             >
               <img src="img/300series/115SDR.png" alt="HW" />
               <p>Hino Dutro 115 SDR</p>
@@ -223,7 +214,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115SDL"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115SDL"
             >
               <img src="img/300series/115SDL.png" alt="CH" />
               <p>Hino Dutro 115 SDL</p>
@@ -231,7 +222,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115LD"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115LD"
             >
               <img src="img/300series/115LD.png" alt="BR" />
               <p>Hino Dutro 115 LD</p>
@@ -239,7 +230,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115HD"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20115HD"
             >
               <img src="img/300series/115HD.png" alt="CS" />
               <p>Hino Dutro 115 HD</p>
@@ -247,7 +238,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136MD"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136MD"
             >
               <img src="img/300series/136MD.png" alt="LG" />
               <p>Hino Dutro 136 MD</p>
@@ -255,7 +246,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136MDL"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136MDL"
             >
               <img src="img/300series/136MDL.png" alt="EP" />
               <p>Hino Dutro 136 MDL</p>
@@ -263,7 +254,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136MDL"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136MDL"
             >
               <img src="img/300series/136-MDLR.png" alt="EP" />
               <p>Hino Dutro 136 MDLR</p>
@@ -271,7 +262,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136HD"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136HD"
             >
               <img src="img/300series/136 HDX Plantation.png" alt="EG" />
               <p>Hino Dutro 136 HD</p>
@@ -279,7 +270,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136HDL"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136HDL"
             >
               <img src="img/300series/136 HDL 6x2.png" alt="MP" />
               <p>Hino Dutro 136 HDL</p>
@@ -287,7 +278,7 @@
           </div>
           <div class="gallery-item">
             <a
-              href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136HDX%20Mixer"
+              href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Hino%20Dutro%20136HDX%20Mixer"
             >
               <img src="img/300series/136HDX Mixer.png" alt="GS" />
               <p>Hino Dutro 136 HDX Mixer</p>
@@ -300,7 +291,7 @@
       <div class="cta-full">
         <h2>Tidak menemukan apa yang kamu cari?</h2>
         <a
-          href="https://wa.me/+6281219055571?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Produk"
+          href="https://wa.me/+6285692911733?text=Halo%20Saya%20Ingin%20Menanyakan%20Tentang%20Produk"
           class="cta-full-button"
           >Hubungi Kami</a
         >
@@ -310,10 +301,6 @@
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
-
-    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-b334841b-ad07-411c-889b-4364272215a1" data-elfsight-app-lazy></div>
 
     <script>
       feather.replace();

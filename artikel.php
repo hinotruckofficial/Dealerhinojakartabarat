@@ -1,6 +1,6 @@
 <?php
 $kategoriData = json_decode(
-    file_get_contents("https://official-hino.com/admin/api/get_kategori.php"),
+    file_get_contents("https://dealerhinojakartabarat.com/admin/api/get_kategori.php"),
     true
 );
 
@@ -10,7 +10,7 @@ $page = isset($_GET['page']) ? max(1, (int)$_GET['page']) : 1;
 $perPage = 6;
 
 // Bangun URL API
-$apiUrl = "https://official-hino.com/admin/api/get_artikel.php";
+$apiUrl = "https://dealerhinojakartabarat.com/admin/api/get_artikel.php";
 $params = [];
 
 if ($search !== '') {
@@ -43,61 +43,61 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ SEO Title (Artikel / Blog) -->
-    <title>Artikel & Promo Truk Hino Terbaru | Dealer Hino Tangerang</title>
+    <title>Artikel & Promo Truk Hino Terbaru | Dealer Hino Jakarta Barat</title>
 
     <!-- ✅ Meta Description (Informatif + CTA Halus) -->
-    <meta name="description" content="Artikel terbaru seputar truk Hino: harga, promo, spesifikasi Hino Dutro, Hino 300 & 500 Series. Update resmi dari Dealer Hino Tangerang Jabodetabek." />
+    <meta name="description" content="Artikel terbaru seputar truk Hino: harga, promo, spesifikasi Hino Dutro, Hino 300 & 500 Series. Update resmi dari Dealer Hino Jabodetabek Jabodetabek." />
 
     <!-- ✅ Meta Keywords (khusus artikel, tidak spam) -->
-    <meta name="keywords" content="artikel hino, berita hino, promo truk hino, harga truk hino terbaru, spesifikasi hino dutro, hino 300, hino 500, dealer hino tangerang, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang" />
+    <meta name="keywords" content="artikel hino, berita hino, promo truk hino, harga truk hino terbaru, spesifikasi hino dutro, hino 300, hino 500, Dealer Hino Jabodetabek, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang" />
 
     <!-- ✅ Canonical -->
-    <link rel="canonical" href="https://official-hino.com/artikel" />
+    <link rel="canonical" href="https://dealerhinojakartabarat.com/artikel" />
 
     <!-- ✅ Favicon -->
     <link rel="icon" type="image/png" href="/favicon_512.png" />
 
     <!-- ✅ Open Graph (Share Sosial Media) -->
-    <meta property="og:site_name" content="Dealer Hino Tangerang" />
+    <meta property="og:site_name" content="Dealer Hino Jabodetabek" />
     <meta property="og:title" content="Artikel & Promo Truk Hino Terbaru" />
-    <meta property="og:description" content="Update artikel Hino terbaru: harga, promo, dan spesifikasi truk Hino resmi dari Dealer Hino Tangerang." />
-    <meta property="og:url" content="https://official-hino.com/artikel" />
+    <meta property="og:description" content="Update artikel Hino terbaru: harga, promo, dan spesifikasi truk Hino resmi dari Dealer Hino Jabodetabek." />
+    <meta property="og:url" content="https://dealerhinojakartabarat.com/artikel" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://official-hino.com/img/hino300produk.png" />
+    <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino300produk.png" />
 
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Artikel & Promo Truk Hino Terbaru" />
-    <meta name="twitter:description" content="Artikel lengkap truk Hino: harga, promo & spesifikasi resmi Dealer Hino Tangerang." />
-    <meta name="twitter:image" content="https://official-hino.com/img/hino300produk.png" />
+    <meta name="twitter:description" content="Artikel lengkap truk Hino: harga, promo & spesifikasi resmi Dealer Hino Jabodetabek." />
+    <meta name="twitter:image" content="https://dealerhinojakartabarat.com/img/hino300produk.png" />
 
     <!-- JSON Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": "https://official-hino.com/artikel",
+      "@id": "https://dealerhinojakartabarat.com/artikel",
       "headline": "Artikel & Promo Truk Hino Terbaru",
-      "description": "Artikel terbaru seputar truk Hino meliputi harga, promo, spesifikasi Hino Dutro, Hino 300 dan Hino 500 dari Dealer Hino Tangerang resmi.",
-      "image": "https://official-hino.com/img/hino300produk.png",
+      "description": "Artikel terbaru seputar truk Hino meliputi harga, promo, spesifikasi Hino Dutro, Hino 300 dan Hino 500 dari Dealer Hino Jabodetabek resmi.",
+      "image": "https://dealerhinojakartabarat.com/img/hino300produk.png",
       "author": {
         "@type": "Organization",
-        "name": "Dealer Hino Tangerang",
-        "url": "https://official-hino.com"
+        "name": "Dealer Hino Jabodetabek",
+        "url": "https://dealerhinojakartabarat.com"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Dealer Hino Tangerang",
+        "name": "Dealer Hino Jabodetabek",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://official-hino.com/favicon_512.png"
+          "url": "https://dealerhinojakartabarat.com/favicon_512.png"
         }
       },
       "datePublished": "2025-01-01",
       "dateModified": "2025-01-01",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://official-hino.com/artikel"
+        "@id": "https://dealerhinojakartabarat.com/artikel"
       }
     }
     </script>
@@ -111,28 +111,16 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
           "@type": "ListItem",
           "position": 1,
           "name": "Beranda",
-          "item": "https://official-hino.com"
+          "item": "https://dealerhinojakartabarat.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Artikel",
-          "item": "https://official-hino.com/artikel"
+          "item": "https://dealerhinojakartabarat.com/artikel"
         }
       ]
     }
-    </script>
-
-
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8BPF492E6Z');
     </script>
 
     <link rel="stylesheet" href="css/style.css" />
@@ -193,7 +181,7 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
       <div class="container header-content navbar">
     <!-- Logo -->
     <div class="header-title">
-      <a href="https://official-hino.com">
+      <a href="https://dealerhinojakartabarat.com">
         <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
       </a>
     </div>
@@ -288,10 +276,6 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
-
-    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-b334841b-ad07-411c-889b-4364272215a1" data-elfsight-app-lazy></div>
 
     <script>feather.replace();</script>
   </body>

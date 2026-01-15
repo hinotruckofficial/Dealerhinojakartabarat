@@ -55,7 +55,7 @@ try {
 
     foreach ($artikel as &$row) {
         if (!empty($row['gambar'])) {
-            $row['gambar'] = "https://official-hino.com/admin/uploads/artikel/" . $row['gambar'];
+            $row['gambar'] = "https://dealerhinojakartabarat.com/admin/uploads/artikel/" . $row['gambar'];
         }
     }
 

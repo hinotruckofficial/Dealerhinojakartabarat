@@ -45,69 +45,69 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ SEO Title -->
-    <title>Kontak Dealer Hino Tangerang | Official Hino</title>
+    <title>Kontak Dealer Hino Jabodetabek | Authorized Hino Dealer</title>
 
     <!-- ✅ Meta Description (CTA kuat) -->
     <meta
       name="description"
-      content="Hubungi Dealer Hino Tangerang. Konsultasi harga truk Hino, promo terbaru, dan kredit mudah. Telepon & WhatsApp 0812-1905-5571."
+      content="Hubungi Dealer Hino Jabodetabek. Konsultasi harga truk Hino, promo terbaru, dan kredit mudah. Telepon & WhatsApp 0856-9291-1733."
     />
 
     <!-- ✅ Canonical -->
-    <link rel="canonical" href="https://official-hino.com/contact" />
+    <link rel="canonical" href="https://dealerhinojakartabarat.com/contact" />
 
     <!-- ✅ Meta Keywords (ringkas & lokal) -->
     <meta
       name="keywords"
-      content="kontak dealer hino tangerang, sales hino tangerang, alamat dealer hino tangerang, hubungi dealer hino, dealer hino, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
+      content="kontak Dealer Hino Jabodetabek, sales hino tangerang, alamat Dealer Hino Jabodetabek, hubungi dealer hino, dealer hino, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
     />
 
     <!-- ✅ Open Graph -->
-    <meta property="og:site_name" content="Dealer Hino Tangerang" />
-    <meta property="og:title" content="Kontak Dealer Hino Tangerang" />
+    <meta property="og:site_name" content="Dealer Hino Jabodetabek" />
+    <meta property="og:title" content="Kontak Dealer Hino Jabodetabek" />
     <meta
       property="og:description"
-      content="Hubungi Dealer Hino Tangerang untuk informasi harga, promo & kredit truk Hino. WA & Telp 0812-1905-5571."
+      content="Hubungi Dealer Hino Jabodetabek untuk informasi harga, promo & kredit truk Hino. WA & Telp 0856-9291-1733."
     />
-    <meta property="og:url" content="https://official-hino.com/contact" />
+    <meta property="og:url" content="https://dealerhinojakartabarat.com/contact" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://official-hino.com/img/hino.png" />
+    <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino.png" />
 
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kontak Dealer Hino Tangerang" />
+    <meta name="twitter:title" content="Kontak Dealer Hino Jabodetabek" />
     <meta
       name="twitter:description"
-      content="Sales Hino Tangerang. Hubungi sekarang untuk harga & promo truk Hino."
+      content="Sales Hino Jakarta. Hubungi sekarang untuk harga & promo truk Hino."
     />
-    <meta name="twitter:image" content="https://official-hino.com/img/hino.png" />
+    <meta name="twitter:image" content="https://dealerhinojakartabarat.com/img/hino.png" />
 
     <!-- JSON -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "AutoDealer",
-      "@id": "https://official-hino.com/contact#autodealer",
-      "name": "Dealer Hino Tangerang",
-      "alternateName": "Hino Official Tangerang",
-      "url": "https://official-hino.com/contact",
-      "logo": "https://official-hino.com/favicon_512.png",
-      "image": "https://official-hino.com/img/hino.png",
-      "description": "Kontak Dealer Hino Tangerang resmi. Melayani penjualan truk Hino Dutro, Hino 300 & 500 Series dengan promo dan kredit terbaik.",
-      "telephone": "+62-812-1905-5571",
+      "@id": "https://dealerhinojakartabarat.com/contact#autodealer",
+      "name": "Dealer Hino Jabodetabek",
+      "alternateName": "Dealer Hino Jabodetabek Resmi",
+      "url": "https://dealerhinojakartabarat.com/contact",
+      "logo": "https://dealerhinojakartabarat.com/favicon_512.png",
+      "image": "https://dealerhinojakartabarat.com/img/hino.png",
+      "description": "Kontak Dealer Hino Jabodetabek resmi. Melayani penjualan truk Hino Dutro, Hino 300 & 500 Series dengan promo dan kredit terbaik.",
+      "telephone": "+62-856-9291-1733",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Jl. Raya Serang Km 18,8, Sukanagara, Kec. Cikupa",
-        "addressLocality": "Kabupaten Tangerang",
-        "addressRegion": "Banten",
-        "postalCode": "15710",
+        "streetAddress": "Ruko Palm Crown HH4/19, Jl. Perumahan Taman Surya No.5, RT.7/RW.3, Pegadungan, Kec. Kalideres, Kota Jakarta Barat",
+        "addressLocality": "Kota Jakarta Barat",
+        "addressRegion": "Daerah Khusus Ibukota Jakarta",
+        "postalCode": "11830",
         "addressCountry": "ID"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": -6.2500,
-        "longitude": 106.5000
+        "latitude": -6.1318,
+        "longitude": 106.7028
       },
       "openingHoursSpecification": [
         {
@@ -126,48 +126,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+62-812-1905-5571",
+        "telephone": "+62-856-9291-1733",
         "contactType": "Sales",
         "areaServed": "ID",
         "availableLanguage": ["id"]
       },
       "sameAs": [
-        "https://www.facebook.com/official-hino",
-        "https://www.instagram.com/official_hino.id",
-        "https://www.tiktok.com/@official_hino"
+        "https://www.facebook.com/hinotruckofficial",
+        "https://www.instagram.com/hinotruckofficial",
+        "https://www.tiktok.com/@hinotruckofficial"
       ]
     }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Beranda",
-          "item": "https://official-hino.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Kontak",
-          "item": "https://official-hino.com/contact"
-        }
-      ]
-    }
-    </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8BPF492E6Z');
     </script>
 
     <meta name="robots" content="index, follow" />
@@ -191,7 +160,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <header>
       <div class="container header-content navbar">
         <div class="header-title">
-          <a href="https://official-hino.com">
+          <a href="https://dealerhinojakartabarat.com">
             <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
           </a>
         </div>
@@ -245,10 +214,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
-
-    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-b334841b-ad07-411c-889b-4364272215a1" data-elfsight-app-lazy></div>
 
     <!-- Feather Icons -->
     <script>feather.replace();</script>

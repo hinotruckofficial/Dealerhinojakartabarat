@@ -27,7 +27,7 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
 }
 
 // Base domain (benar)
-$base_url = 'https://official-hino.com';
+$base_url = 'https://dealerhinojakartabarat.com';
 
 // 1️⃣ Halaman index artikel (jika memang alamat index Anda artikel.php)
 printUrl($base_url . '/artikel.php', date('Y-m-d'), 'weekly', '0.9');
@@ -36,9 +36,9 @@ try {
     // Koneksi database (sesuaikan credential bila perlu)
     $conn = new mysqli(
         "localhost",
-        "u142136422_officialhino",
-        "D3n15h1no35!",
-        "u142136422_officialhino"
+        "u868657420_hinobarat",
+        "H1noB4arat456",
+        "u868657420_hinobarat"
     );
     $conn->set_charset('utf8mb4');
 

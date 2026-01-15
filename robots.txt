@@ -1,5 +1,5 @@
 # =========================================================
-# robots.txt for official-hino.com
+# robots.txt for dealerhinojakartabarat.com
 # FINAL CLEAN & OPTIMIZED
 # =========================================================
 
@@ -26,9 +26,9 @@ Allow: /hinobus.php$
 Allow: /contact.php$
 
 # --- Sitemap ---
-Sitemap: https://official-hino.com/sitemap-index.xml
-Sitemap: https://official-hino.com/sitemap-pages.xml
-Sitemap: https://official-hino.com/sitemap-artikel
+Sitemap: https://dealerhinojakartabarat.com/sitemap-index.xml
+Sitemap: https://dealerhinojakartabarat.com/sitemap-pages.xml
+Sitemap: https://dealerhinojakartabarat.com/sitemap-artikel
 
 # =========================================================
 # END OF FILE

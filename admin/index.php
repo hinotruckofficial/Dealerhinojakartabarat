@@ -51,7 +51,7 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
   <!-- MAIN CONTENT -->
   <div class="main-content">
     <div class="main-header mb-4">
-      <h3>Selamat Datang, <span class="text-primary">Admin 👋</span></h3>
+      <h3>Selamat Datang, <span class="text-primary">Asdi Hino 👋</span></h3>
       <p class="text-muted">Panel Admin Hino — Didesain untuk kemudahan & kecepatan kerja.</p>
     </div>
 

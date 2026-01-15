@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Login Admin Panel - Hino Official</title>
+    <title>Login Admin Panel - Authorized Hino</title>
 
     <!-- Favicon -->
     <link rel="icon" href="../img/favicon.png" type="image/png" />

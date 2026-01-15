@@ -7,7 +7,7 @@ if (!$slug) {
 
 // Ambil artikel by slug
 $artikel = json_decode(
-    file_get_contents("https://official-hino.com/admin/api/get_artikel.php?slug=" . urlencode($slug)),
+    file_get_contents("https://dealerhinojakartabarat.com/admin/api/get_artikel.php?slug=" . urlencode($slug)),
     true
 );
 
@@ -18,7 +18,7 @@ if (!$artikel || !isset($artikel['slug'])) {
 
 // Ambil artikel lain untuk sidebar
 $allArtikel = json_decode(
-    file_get_contents("https://official-hino.com/admin/api/get_artikel.php"),
+    file_get_contents("https://dealerhinojakartabarat.com/admin/api/get_artikel.php"),
     true
 ) ?: [];
 ?>
@@ -29,14 +29,14 @@ $allArtikel = json_decode(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?= htmlspecialchars($artikel['judul']) ?> | Official Hino</title>
+    <title><?= htmlspecialchars($artikel['judul']) ?> | Dealer Hino Jabodetabek</title>
     <meta name="description" content="<?= htmlspecialchars(mb_strimwidth(strip_tags($artikel['isi']),0,160,'...')) ?>">
 
     <!-- SEO -->
     <meta property="og:title" content="<?= htmlspecialchars($artikel['judul']) ?>">
     <meta property="og:description" content="<?= htmlspecialchars(mb_strimwidth(strip_tags($artikel['isi']),0,160,'...')) ?>">
     <meta property="og:image" content="<?= htmlspecialchars($artikel['gambar']) ?>">
-    <meta property="og:url" content="https://official-hino.com/artikel/<?= htmlspecialchars($artikel['slug']) ?>">
+    <meta property="og:url" content="https://dealerhinojakartabarat.com/artikel/<?= htmlspecialchars($artikel['slug']) ?>">
     <meta property="og:type" content="article">
     <link rel="icon" type="image/png" href="/favicon_512.png">
 
@@ -49,16 +49,6 @@ $allArtikel = json_decode(
     <link rel="stylesheet" href="/css/home_css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/artikel.css">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8BPF492E6Z');
-    </script>
 
     <!-- JS -->
     <script src="/js/script.js"></script>
@@ -73,7 +63,7 @@ $allArtikel = json_decode(
       <div class="container header-content navbar">
     <!-- Logo -->
     <div class="header-title">
-      <a href="https://official-hino.com">
+      <a href="https://dealerhinojakartabarat.com">
         <img src="/img/logo3.png" alt="Logo Hino" style="height: 60px" />
       </a>
     </div>
@@ -97,7 +87,7 @@ $allArtikel = json_decode(
             <?php if($artikel): ?>
               <h1><?= htmlspecialchars($artikel['judul']) ?></h1>
               <p style="color: #888; font-size: 14px; margin-bottom: 15px;">
-                Diposting oleh <strong><?= htmlspecialchars($artikel['author'] ?? 'Dennis Hino') ?></strong> pada <?= date('d M Y', strtotime($artikel['tanggal'] ?? 'now')) ?>
+                Diposting oleh <strong><?= htmlspecialchars($artikel['author'] ?? 'Dealer Hino Jabodetabek') ?></strong> pada <?= date('d M Y', strtotime($artikel['tanggal'] ?? 'now')) ?>
               </p>
               <img src="<?= htmlspecialchars($artikel['gambar']) ?>" alt="<?= htmlspecialchars($artikel['judul']) ?>" class="featured-image" style="width: 100%; height: auto; margin-bottom: 20px;">
               <div class="isi-artikel">
@@ -181,11 +171,6 @@ $allArtikel = json_decode(
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
-
-    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-b334841b-ad07-411c-889b-4364272215a1" data-elfsight-app-lazy></div>
-
 
     <script>
       feather.replace();
