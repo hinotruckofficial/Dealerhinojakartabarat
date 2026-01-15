@@ -2,6 +2,14 @@
 session_start();
 require 'config.php'; // pastikan koneksi PDO ($pdo) sudah benar
 
+function buatSlug($string) {
+    $slug = strtolower($string);
+    $slug = preg_replace('/[^a-z0-9\s-]/', '', $slug);
+    $slug = preg_replace('/[\s-]+/', '-', $slug);
+    return trim($slug, '-');
+}
+
+
 // Cek session login
 if (!isset($_SESSION['admin_id'])) {
     header("Location: login.php");
@@ -25,6 +33,7 @@ if (isset($_POST['submit'])) {
     $title = trim($_POST['title']);
     $description = trim($_POST['description']);
     $kategori_id = $_POST['kategori_id'] ?? null;
+    $slug = buatSlug($title);
     $image = '';
 
     // Upload gambar (jika ada)
@@ -35,7 +44,6 @@ if (isset($_POST['submit'])) {
         $fileName = time() . '_' . basename($_FILES['image']['name']);
         $targetFilePath = $targetDir . $fileName;
 
-        // Validasi ekstensi file
         $allowedTypes = ['jpg', 'jpeg', 'png', 'webp'];
         $fileType = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
 
@@ -46,22 +54,31 @@ if (isset($_POST['submit'])) {
         }
     }
 
-    // Simpan data artikel
     try {
-        $sql = "INSERT INTO artikel (judul, isi, gambar, tanggal, kategori_id) 
-                VALUES (:judul, :isi, :gambar, NOW(), :kategori_id)";
+        $sql = "INSERT INTO artikel 
+                (judul, slug, isi, gambar, tanggal, kategori_id)
+                VALUES 
+                (:judul, :slug, :isi, :gambar, NOW(), :kategori_id)";
+        
         $stmt = $pdo->prepare($sql);
         $stmt->execute([
             ':judul' => $title,
+            ':slug' => $slug,
             ':isi' => $description,
             ':gambar' => $image,
             ':kategori_id' => $kategori_id
         ]);
 
-        $_SESSION['message'] = ['type' => 'success', 'text' => 'Artikel berhasil ditambahkan!'];
-    } catch (Exception $e) {
-        error_log("Gagal menambahkan artikel: " . $e->getMessage());
-        $_SESSION['message'] = ['type' => 'danger', 'text' => 'Gagal menambahkan artikel.'];
+        $_SESSION['message'] = [
+            'type' => 'success',
+            'text' => 'Artikel berhasil ditambahkan!'
+        ];
+    } catch (PDOException $e) {
+        error_log($e->getMessage());
+        $_SESSION['message'] = [
+            'type' => 'danger',
+            'text' => 'Gagal menambahkan artikel.'
+        ];
     }
 
     header("Location: artikel.php");

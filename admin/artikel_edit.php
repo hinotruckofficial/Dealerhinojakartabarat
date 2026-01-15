@@ -2,6 +2,14 @@
 session_start();
 require 'config.php';
 
+function buatSlug($string) {
+    $slug = strtolower($string);
+    $slug = preg_replace('/[^a-z0-9\s-]/', '', $slug);
+    $slug = preg_replace('/[\s-]+/', '-', $slug);
+    return trim($slug, '-');
+}
+
+
 // Cek login
 if (!isset($_SESSION['admin_id'])) {
     header("Location: login.php");
@@ -31,7 +39,8 @@ if (isset($_POST['update'])) {
     $judul = trim($_POST['judul']);
     $isi = trim($_POST['isi']);
     $kategori_id = intval($_POST['kategori_id']);
-    $gambar = $article['gambar']; // gunakan gambar lama jika tidak upload baru
+    $slug = buatSlug($judul);
+    $gambar = $article['gambar'];
 
     // Upload gambar baru
     if (!empty($_FILES['gambar']['name'])) {
@@ -41,21 +50,40 @@ if (isset($_POST['update'])) {
         $fileName = time() . '_' . basename($_FILES['gambar']['name']);
         $targetFilePath = $targetDir . $fileName;
 
-        if (move_uploaded_file($_FILES['gambar']['tmp_name'], $targetFilePath)) {
-            $gambar = $fileName;
+        $allowedTypes = ['jpg','jpeg','png','webp'];
+        $fileType = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
+
+        if (in_array($fileType, $allowedTypes)) {
+            if (move_uploaded_file($_FILES['gambar']['tmp_name'], $targetFilePath)) {
+                $gambar = $fileName;
+            }
         }
     }
 
     try {
         $sql = "UPDATE artikel 
-                SET judul = ?, isi = ?, gambar = ?, kategori_id = ? 
+                SET judul = ?, slug = ?, isi = ?, gambar = ?, kategori_id = ? 
                 WHERE id = ?";
         $stmt = $pdo->prepare($sql);
-        $stmt->execute([$judul, $isi, $gambar, $kategori_id, $id]);
+        $stmt->execute([
+            $judul,
+            $slug,
+            $isi,
+            $gambar,
+            $kategori_id,
+            $id
+        ]);
 
-        $_SESSION['message'] = ['type' => 'success', 'text' => 'Artikel berhasil diperbarui!'];
-    } catch (Exception $e) {
-        $_SESSION['message'] = ['type' => 'danger', 'text' => 'Gagal memperbarui artikel: ' . $e->getMessage()];
+        $_SESSION['message'] = [
+            'type' => 'success',
+            'text' => 'Artikel berhasil diperbarui!'
+        ];
+    } catch (PDOException $e) {
+        error_log($e->getMessage());
+        $_SESSION['message'] = [
+            'type' => 'danger',
+            'text' => 'Gagal memperbarui artikel.'
+        ];
     }
 
     header("Location: artikel.php");
