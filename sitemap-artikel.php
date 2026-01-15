@@ -16,8 +16,10 @@ echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
 // Fungsi print URL
 function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
-    // pastikan lastmod dalam format YYYY-MM-DD
-    $lastmod_clean = preg_match('/^\d{4}-\d{2}-\d{2}$/', $lastmod) ? $lastmod : date('Y-m-d');
+    $lastmod_clean = preg_match('/^\d{4}-\d{2}-\d{2}$/', $lastmod)
+        ? $lastmod
+        : date('Y-m-d');
+
     echo "  <url>\n";
     echo "    <loc>" . htmlspecialchars($loc, ENT_XML1, 'UTF-8') . "</loc>\n";
     echo "    <lastmod>$lastmod_clean</lastmod>\n";
@@ -26,14 +28,14 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
     echo "  </url>\n";
 }
 
-// Base domain (benar)
+// Base domain
 $base_url = 'https://dealerhinojakartabarat.com';
 
-// 1️⃣ Halaman index artikel (jika memang alamat index Anda artikel.php)
-printUrl($base_url . '/artikel.php', date('Y-m-d'), 'weekly', '0.9');
+// 1️⃣ Halaman index artikel
+printUrl($base_url . '/artikel', date('Y-m-d'), 'weekly', '0.9');
 
 try {
-    // Koneksi database (sesuaikan credential bila perlu)
+    // Koneksi database
     $conn = new mysqli(
         "localhost",
         "u868657420_hinobarat",
@@ -42,7 +44,7 @@ try {
     );
     $conn->set_charset('utf8mb4');
 
-    // Cek apakah tabel 'artikel' ada
+    // Cek tabel artikel
     $res = $conn->query("SHOW TABLES LIKE 'artikel'");
     if ($res && $res->num_rows > 0) {
 
@@ -58,10 +60,9 @@ try {
                 ? date('Y-m-d', strtotime($row['tanggal']))
                 : date('Y-m-d');
 
-            // ===== Perbaikan utama: format URL detail_artikel?slug=...
-            // Gunakan rawurlencode agar karakter spesial di-slug aman di query string
+            // ✅ URL SEO FRIENDLY /artikel/slug
             $encoded_slug = rawurlencode($slug);
-            $url = $base_url . '/detail_artikel?slug=' . $encoded_slug;
+            $url = $base_url . '/artikel/' . $encoded_slug;
 
             printUrl($url, $lastmod, 'weekly', '0.8');
         }
