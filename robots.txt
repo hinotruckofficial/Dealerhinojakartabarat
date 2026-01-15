@@ -1,0 +1,35 @@
+# =========================================================
+# robots.txt for official-hino.com
+# FINAL CLEAN & OPTIMIZED
+# =========================================================
+
+User-agent: *
+
+# --- ALLOW: Static files ---
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /admin/uploads/
+Allow: /favicon_512.png
+Allow: /favicon.ico
+
+# --- BLOCK: Sensitive directories ---
+Disallow: /admin/
+
+# --- ALLOW important public PHP pages ---
+Allow: /index.php$
+Allow: /artikel.php$
+Allow: /detail_artikel.php$
+Allow: /hino300.php$
+Allow: /hino500.php$
+Allow: /hinobus.php$
+Allow: /contact.php$
+
+# --- Sitemap ---
+Sitemap: https://official-hino.com/sitemap-index.xml
+Sitemap: https://official-hino.com/sitemap-pages.xml
+Sitemap: https://official-hino.com/sitemap-artikel
+
+# =========================================================
+# END OF FILE
+# =========================================================
