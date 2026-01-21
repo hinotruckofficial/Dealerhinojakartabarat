@@ -46,7 +46,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ Judul utama -->
-    <title>Dealer Hino Jabodetabek | Authorized Hino Dealer</title>
+    <title>Dealer Hino Jakarta | Authorized Hino Dealer</title>
 
     <!-- ✅ Deskripsi SEO -->
     <meta name="description" content="Dealer Hino Jakarta Siap Memberikan Harga Terbaik Untuk Anda. Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
