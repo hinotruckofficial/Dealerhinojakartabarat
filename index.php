@@ -437,39 +437,92 @@ try {
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 
-      <!-- Floating WhatsApp Button -->
-<a href="https://wa.me/6285692911733?text=Halo%20saya%20tertarik%20dengan%20truk%20Hino.%20Mohon%20informasinya" 
-   class="wa-float" 
-   target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
-</a>
+    <!-- WhatsApp Bubble Chat -->
+<div class="wa-container">
+  <div class="wa-bubble">
+    Butuh info truk Hino?<br>
+    <strong>Chat kami sekarang</strong>
+  </div>
+
+  <a href="https://wa.me/6285692911733?text=Halo%20saya%20tertarik%20dengan%20truk%20Hino.%20Mohon%20informasinya"
+     target="_blank"
+     class="wa-button"
+     aria-label="Chat WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+</div>
 
 <style>
-.wa-float {
+.wa-container {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 20px;
     right: 20px;
-    background-color: #25D366;
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    bottom: 20px;
     z-index: 999;
     display: flex;
     align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Bubble chat */
+.wa-bubble {
+    background: #ffffff;
+    color: #333;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    animation: fadeIn 1s ease;
+    position: relative;
+}
+
+/* Arrow bubble */
+.wa-bubble::after {
+    content: "";
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+/* WhatsApp button */
+.wa-button {
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-.wa-float img {
-    width: 35px;
-    height: 35px;
+.wa-button img {
+    width: 34px;
+    height: 34px;
 }
 
-.wa-float:hover {
-    background-color: #20b955;
+.wa-button:hover {
+    background: #1ebe5d;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+    .wa-bubble {
+        display: none;
+    }
 }
 </style>
+
 
     <script>feather.replace();</script>
   </body>
