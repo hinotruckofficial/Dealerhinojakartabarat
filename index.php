@@ -440,7 +440,7 @@ try {
     <!-- WhatsApp Bubble Chat -->
 <div class="wa-container">
   <div class="wa-bubble">
-    Butuh info truk Hino?<br>
+    Fress GPS, Free Service Dan Spare Parts<br>
     <strong>Chat kami sekarang</strong>
   </div>
 
