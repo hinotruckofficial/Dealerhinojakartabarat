@@ -49,21 +49,21 @@ try {
     <title>Dealer Hino Jabodetabek | Authorized Hino Dealer</title>
 
     <!-- ✅ Deskripsi SEO -->
-    <meta name="description" content="Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
+    <meta name="description" content="Dealer Hino Jakarta Siap Memberikan Harga Terbaik Untuk Anda. Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
     <meta name="keywords" content="dealer hino, dealer hino jakarta, dealer hino jabodetabek, dealer hino jakarta barat, dealer hino jakarta timur, dealer hino jakarta utara, dealer hino jakarta selatan, Dealer Hino Jabodetabek, dealer hino bekasi, dealer hino depok, dealer hino bogor, dealer hino bandung, dealer resmi hino indonesia, sales hino, promo hino, harga truk hino, jual truk hino, kredit truk hino, cicilan truk hino, hino ready stock, stok unit hino terbaru, harga hino terbaru 2026, promo kredit hino, Dealer Hino Jabodetabek, hino tangerang, sales hino tangerang, harga truk hino tangerang, promo hino tangerang, kredit truk hino tangerang, dealer hino resmi tangerang, dealer hino cikupa, dealer hino cikupa tangerang">
-    <meta name="author" content="Dealer Hino Jabodetabek">
+    <meta name="author" content="Dealer Hino Jakarta">
 
     <!-- ✅ Canonical URL -->
     <link rel="canonical" href="https://dealerhinojakartabarat.com/" />
 
-    <!-- ✅ Tambahkan ini agar judul 'Dealer Hino Jabodetabek' muncul di atas domain (seperti di Indomobil Hino) -->
-    <meta name="application-name" content="Dealer Hino Jabodetabek">
-    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jabodetabek">
+    <!-- ✅ Tambahkan ini agar judul 'Dealer Hino Jakarta' muncul di atas domain (seperti di Indomobil Hino) -->
+    <meta name="application-name" content="Dealer Hino Ja">karta
+    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jakarta">
 
     <!-- ✅ Open Graph untuk tampilan di Google / Facebook / WhatsApp -->
-    <meta property="og:site_name" content="Dealer Hino Jabodetabek">
-    <meta property="og:title" content="Dealer Hino Jabodetabek | Authorized Hino Dealer">
-    <meta property="og:description" content="Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
+    <meta property="og:site_name" content="Dealer Hino Jakarta">
+    <meta property="og:title" content="Dealer Hino Jakarta | Authorized Hino Dealer">
+    <meta property="og:description" content="Dealer Hino Jakarta adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
     <meta property="og:url" content="https://dealerhinojakartabarat.com/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino.png">
