@@ -216,6 +216,40 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       </div>
     </div>
 
+       <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6285692911733?text=Halo%20saya%20tertarik%20dengan%20truk%20Hino.%20Mohon%20informasinya" 
+   class="wa-float" 
+   target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</a>
+
+<style>
+.wa-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wa-float img {
+    width: 35px;
+    height: 35px;
+}
+
+.wa-float:hover {
+    background-color: #20b955;
+}
+</style>
+
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 
