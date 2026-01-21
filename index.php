@@ -437,6 +437,42 @@ try {
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 
+      <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6285692911733" 
+   class="wa-float" 
+   target="_blank" 
+   aria-label="Chat via WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+         alt="WhatsApp" />
+</a>
+
+<style>
+.wa-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wa-float img {
+    width: 35px;
+    height: 35px;
+}
+
+.wa-float:hover {
+    background-color: #20b955;
+}
+</style>
+
     <script>feather.replace();</script>
   </body>
 </html>
