@@ -438,12 +438,10 @@ try {
     <?php include 'footer.php'; ?>
 
       <!-- Floating WhatsApp Button -->
-<a href="https://wa.me/6285692911733" 
+<a href="https://wa.me/6285692911733?text=Halo%20saya%20tertarik%20dengan%20truk%20Hino.%20Mohon%20informasinya" 
    class="wa-float" 
-   target="_blank" 
-   aria-label="Chat via WhatsApp">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
-         alt="WhatsApp" />
+   target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
 </a>
 
 <style>
