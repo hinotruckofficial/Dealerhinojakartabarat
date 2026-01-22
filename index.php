@@ -50,7 +50,7 @@ try {
 
     <!-- ✅ Deskripsi SEO -->
     <meta name="description" content="Dealer Hino Jakarta Siap Memberikan Harga Terbaik Untuk Truk Hino Dan Bus Hino. Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
-    <meta name="keywords" content="dealer hino jakarta">
+    <meta name="keywords" content="dealer hino jakarta, dealer hino jakarta barat, harga truk hino jakarta, dealer hino resmi, promo truk hino">
     <meta name="author" content="Dealer Hino Jakarta">
 
     <!-- ✅ Canonical URL -->
