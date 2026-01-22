@@ -204,6 +204,8 @@ try {
           <a href="/contact">Contact</a>
         </nav>
       </div>
+         <!-- CSS Footer -->
+    <link rel="stylesheet" href="css/footer.css" />
     </header>
 
     <!-- Hero -->
