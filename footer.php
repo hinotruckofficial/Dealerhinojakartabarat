@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 Dealer Hino Jabodetabek. All Rights Reserved.</p>
+        <p>&copy; 2026 Dealer Hino Jakarta. All Rights Reserved.</p>
       </div>
 
     </footer>
