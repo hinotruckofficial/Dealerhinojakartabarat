@@ -182,6 +182,8 @@ try {
     <!-- ✅ Script -->
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+        <!-- CSS Footer -->
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <!-- Header -->
@@ -204,8 +206,6 @@ try {
           <a href="/contact">Contact</a>
         </nav>
       </div>
-         <!-- CSS Footer -->
-    <link rel="stylesheet" href="css/footer.css" />
     </header>
 
     <!-- Hero -->
