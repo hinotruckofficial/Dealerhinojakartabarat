@@ -78,16 +78,16 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
       "@type": "Article",
       "@id": "https://dealerhinojakartabarat.com/artikel",
       "headline": "Artikel & Promo Truk Hino Terbaru",
-      "description": "Artikel terbaru seputar truk Hino meliputi harga, promo, spesifikasi Hino Dutro, Hino 300 dan Hino 500 dari Dealer Hino Jabodetabek resmi.",
+      "description": "Artikel terbaru seputar truk Hino meliputi harga, promo, spesifikasi Hino Dutro, Hino 300 dan Hino 500 dari Dealer Hino Jakarta resmi.",
       "image": "https://dealerhinojakartabarat.com/img/hino300produk.png",
       "author": {
         "@type": "Organization",
-        "name": "Dealer Hino Jabodetabek",
+        "name": "Dealer Hino Jakarta",
         "url": "https://dealerhinojakartabarat.com"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Dealer Hino Jabodetabek",
+        "name": "Dealer Hino Jakarta",
         "logo": {
           "@type": "ImageObject",
           "url": "https://dealerhinojakartabarat.com/favicon_512.png"
