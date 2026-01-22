@@ -57,8 +57,9 @@ try {
     <link rel="canonical" href="https://dealerhinojakartabarat.com/" />
 
     <!-- ✅ Tambahkan ini agar judul 'Dealer Hino Jakarta' muncul di atas domain (seperti di Indomobil Hino) -->
-    <meta name="application-name" content="Dealer Hino Jakarta
+    <meta name="application-name" content="Dealer Hino Jakarta">
     <meta name="apple-mobile-web-app-title" content="Dealer Hino Jakarta">
+
 
     <!-- ✅ Open Graph untuk tampilan di Google / Facebook / WhatsApp -->
     <meta property="og:site_name" content="Dealer Hino Jakarta">
