@@ -19,7 +19,7 @@
             <a href="https://instagram.com/hinotruckofficial" target="_blank" aria-label="Instagram Hino Official">
               <i data-feather="instagram"></i>
             </a>
-            <a href="https://wa.me/+6285692911733?text=Halo%20Saya%20Dapat%20Nomor%20Anda%20Dari%20Website%20www.dealerhinojakartabarat.com" target="_blank" aria-label="WhatsApp Hino Official">
+            <a href="https://wa.me/6285692911733?text=Halo%20Saya%20Dapat%20Nomor%20Anda%20Dari%20Website%20www.dealerhinojakartabarat.com" target="_blank" aria-label="WhatsApp Hino Official">
               <i data-feather="phone"></i>
             </a>
             <a href="#" target="_blank" aria-label="Facebook Hino Official">
@@ -40,8 +40,6 @@
 
     </footer>
 
-    <!-- CSS Footer -->
-    <link rel="stylesheet" href="css/footer.css" />
 
-  <footer>...</footer>
+  
 
