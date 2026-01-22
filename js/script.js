@@ -157,6 +157,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, options);
 
+  document.addEventListener("DOMContentLoaded", function () {
+  if (typeof feather !== "undefined") {
+    feather.replace();
+  }
+});
+
   faders.forEach((fader) => {
     appearOnScroll.observe(fader);
   });
