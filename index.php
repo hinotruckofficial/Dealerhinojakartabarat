@@ -180,8 +180,9 @@ try {
     </script>
 
     <!-- ✅ Script -->
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+   <script src="/js/script.js" defer></script>
+<script src="https://unpkg.com/feather-icons" defer></script>
+
         <!-- CSS Footer -->
     <link rel="stylesheet" href="css/footer.css" />
   </head>
