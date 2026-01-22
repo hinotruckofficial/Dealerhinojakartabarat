@@ -12,7 +12,7 @@
           <h4>HUBUNGI KAMI</h4>
           <p>📞 0856-9291-1733</p>
           <p>📧 hinotruckofficial@gmail.com</p>
-          <p>📍 Wisma indomobil 1, Jl. Letjen M.T. Haryono No.Kav. 8, Bidara Cina, Jakarta, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330</p>
+          <p>📍 Ruko Palm Crown HH4/19, Pegadungan, Kalideres, Jakarta Barat - 11830</p>
           <div class="footer-social">
             <h4>SOSIAL MEDIA</h4>
           <div class="social-icons">
@@ -43,5 +43,5 @@
     <!-- CSS Footer -->
     <link rel="stylesheet" href="css/footer.css" />
 
-  </body>
-</html>
+  <footer>...</footer>
+
