@@ -50,7 +50,7 @@ try {
 
     <!-- ✅ Deskripsi SEO -->
     <meta name="description" content="Dealer Hino Jakarta Siap Memberikan Harga Terbaik Untuk Truk Hino Dan Bus Hino. Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
-    <meta name="keywords" content="dealer hino, dealer hino jakarta, dealer hino jabodetabek, dealer hino jakarta barat, dealer hino jakarta timur, dealer hino jakarta utara, dealer hino jakarta selatan, Dealer Hino Jabodetabek, dealer hino bekasi, dealer hino depok, dealer hino bogor, dealer hino bandung, dealer resmi hino indonesia, sales hino, promo hino, harga truk hino, jual truk hino, kredit truk hino, cicilan truk hino, hino ready stock, stok unit hino terbaru, harga hino terbaru 2026, promo kredit hino, Dealer Hino Jabodetabek, hino tangerang, sales hino tangerang, harga truk hino tangerang, promo hino tangerang, kredit truk hino tangerang, dealer hino resmi tangerang, dealer hino cikupa, dealer hino cikupa tangerang">
+    <meta name="keywords" content="dealer hino jakarta">
     <meta name="author" content="Dealer Hino Jakarta">
 
     <!-- ✅ Canonical URL -->
@@ -95,7 +95,7 @@ try {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Dealer Hino Jabodetabek",
+      "name": "Dealer Hino Jakarta",
       "alternateName": "Dealer Hino Resmi",
       "url": "https://dealerhinojakartabarat.com"
     }
@@ -105,7 +105,7 @@ try {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Dealer Hino Jabodetabek",
+      "name": "Dealer Hino Jakarta",
       "url": "https://dealerhinojakartabarat.com",
       "logo": "https://dealerhinojakartabarat.com/favicon_512.png"
     }
@@ -116,12 +116,12 @@ try {
       "@context": "https://schema.org",
       "@type": "AutoDealer",
       "@id": "https://dealerhinojakartabarat.com/#dealer",
-      "name": "Dealer Hino Jabodetabek",
-      "alternateName": "Dealer Hino Jabodetabek",
+      "name": "Dealer Hino Jakarta",
+      "alternateName": "Dealer Hino Jakarta",
       "url": "https://dealerhinojakartabarat.com/",
       "image": "https://dealerhinojakartabarat.com/img/hino300produk.png",
       "logo": "https://dealerhinojakartabarat.com/img/hino300produk.png",
-      "description": "Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.",
+      "description": "Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.",
       "telephone": "+62-856-9291-1733",
       "address": {
         "@type": "PostalAddress",
@@ -173,7 +173,7 @@ try {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Dealer Hino Jabodetabek"
+          "name": "Dealer Hino Jakarta"
         }
       ]
     }
@@ -208,6 +208,7 @@ try {
 
     <!-- Hero -->
     <section class="hero">
+        <h1>Dealer Hino Jakarta – Authorized Dealer Hino Jabodetabek</h1>
       <div class="slider">
         <img src="img/Euro 4 Hino 300.jpeg" class="slide active" alt="Banner 1" />
         <img src="img/Euro 4 Hino 500.jpeg" class="slide" alt="Banner 2" />
@@ -218,7 +219,7 @@ try {
     <!-- Section: Promo Utama -->
     <section id="promo-utama" class="promo-section fade-element">
       <div class="promo-text">
-        <h2>Dapatkan Harga dan Penawaran Terbaik Langsung dari Dealer Hino Jabodetabek Authorized Dealer Hino</h2>
+        <h2>Dapatkan Harga dan Penawaran Terbaik Langsung dari Dealer Hino Jakarta Authorized Dealer Hino</h2>
         <ul>
           <li>Ingin harga terbaik untuk semua jenis truk Hino?</li>
           <li>Bingung memilih kendaraan yang tepat untuk bisnis Anda?</li>
@@ -226,7 +227,7 @@ try {
           <li>Hubungi Asdi sekarang juga dan dapatkan solusi terbaik!</li>
         </ul>
         <p>
-          Asdi Hino sebagai <strong>Sales Dealer Hino Jabodetabek Authorized Dealer Resmi Hino</strong> siap membantu Anda mendapatkan
+          Asdi Hino sebagai <strong>Sales Dealer Hino Jakarta Authorized Dealer Resmi Hino</strong> siap membantu Anda mendapatkan
           <strong>truk dan bus Hino baru</strong> dengan harga kompetitif untuk seluruh Indonesia,
           khususnya wilayah <strong>Jakarta, Tangerang, dan Jabodetabek</strong>.
           Nikmati proses mudah, respon cepat, serta layanan purna jual resmi Hino.
