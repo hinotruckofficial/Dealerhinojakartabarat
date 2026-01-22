@@ -244,7 +244,7 @@ try {
       <div class="hino-container">
         <div class="hino-heading">
           <h5>PRODUK & LAYANAN</h5>
-          <h2>HINO JABODETABEK</h2>
+          <h2>HINO JAKARTA</h2>
           <p>Kami melayani jasa penyediaan unit Truk Hino Dutro, Hino Ranger & Bus, layanan service dan penjualan spare part merk Hino.</p>
         </div>
 
