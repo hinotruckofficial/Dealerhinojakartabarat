@@ -58,7 +58,7 @@ try {
 
     <!-- ✅ Tambahkan ini agar judul 'Dealer Hino Jakarta' muncul di atas domain (seperti di Indomobil Hino) -->
     <meta name="application-name" content="Dealer Hino Jakarta">
-    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jakarta">
+<meta name="apple-mobile-web-app-title" content="Dealer Hino Jakarta">
 
 
     <!-- ✅ Open Graph untuk tampilan di Google / Facebook / WhatsApp -->
