@@ -269,7 +269,7 @@ try {
     <!-- Section: Promo Utama -->
     <section id="promo-utama" class="promo-section fade-element">
       <div class="promo-text">
-        <h2>Dealer Hino Jakarta Resmi yang memberikan harga terbaik.</h2>
+        <h2>Dealer Hino Jakarta adalah Autorized Dealer Hino Terpercaya yang memberikan Harga terbaik.</h2>
         <ul>
           <li>Ingin harga terbaik untuk semua jenis truk Hino?</li>
           <li>Bingung memilih kendaraan yang tepat untuk bisnis Anda?</li>
