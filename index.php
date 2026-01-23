@@ -96,7 +96,7 @@ try {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Dealer Hino Jakarta",
-      "alternateName": "Dealer Hino Resmi",
+      "alternateName": "Dealer Hino Resmi Jakarta",
       "url": "https://dealerhinojakartabarat.com"
     }
     </script>
