@@ -210,8 +210,22 @@ try {
     </header>
 
     <!-- Hero -->
-    <section class="hero">
-        <h1>Dealer Hino Jakarta – Authorized Dealer Hino Jabodetabek</h1>
+   <section class="hero">
+  <h1>Dealer Hino Jakarta – Authorized Dealer Hino Jabodetabek</h1>
+
+  <p class="hero-description">
+    Dealer Hino Jakarta Barat merupakan <strong>dealer Hino resmi</strong> yang melayani penjualan 
+    <strong>truk dan bus Hino</strong> untuk wilayah 
+    <strong>Jakarta Barat, Jakarta Timur, Jakarta Selatan, Tangerang, Bekasi</strong>, 
+    serta seluruh area <strong>Jabodetabek</strong>. 
+    Kami menyediakan unit Hino terbaru, harga kompetitif, kemudahan kredit, dan layanan purna jual resmi.
+  </p>
+
+  <div class="slider">
+    ...
+  </div>
+</section>
+
       <div class="slider">
         <img src="img/Euro 4 Hino 300.jpeg" class="slide active" alt="Dealer Hino Jakarta - Truk Hino 300 Euro 4" />
         <img src="img/Euro 4 Hino 500.jpeg" class="slide" alt="Banner 2" />
