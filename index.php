@@ -178,6 +178,31 @@ try {
       ]
     }
     </script>
+<!-- FAQ Schema -->
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Apakah Dealer Hino Jakarta ini resmi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ya, kami adalah Authorized Dealer Hino resmi yang melayani wilayah Jakarta, Tangerang, Bekasi, dan Jabodetabek."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah tersedia kredit truk Hino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tersedia berbagai pilihan kredit truk dan bus Hino dengan DP ringan dan proses cepat."
+      }
+    }
+  ]
+}
+</script>
 
     <!-- ✅ Script -->
    <script src="/js/script.js" defer></script>
