@@ -43,7 +43,7 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ SEO Title (Artikel / Blog) -->
-    <title>Artikel & Promo Truk Hino Terbaru | Dealer Hino Jakarta Barat</title>
+    <title>Artikel & Promo Truk Hino Terbaru | Dealer Hino Jakarta</title>
 
     <!-- ✅ Meta Description (Informatif + CTA Halus) -->
     <meta name="description" content="Artikel terbaru seputar truk Hino: harga, promo, spesifikasi Hino Dutro, Hino 300 & 500 Series. Update resmi dari Dealer Hino Jabodetabek Jabodetabek." />
@@ -58,7 +58,7 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
     <link rel="icon" type="image/png" href="/favicon_512.png" />
 
     <!-- ✅ Open Graph (Share Sosial Media) -->
-    <meta property="og:site_name" content="Dealer Hino Jabodetabek" />
+    <meta property="og:site_name" content="Dealer Hino Jakarta" />
     <meta property="og:title" content="Artikel & Promo Truk Hino Terbaru" />
     <meta property="og:description" content="Update artikel Hino terbaru: harga, promo, dan spesifikasi truk Hino resmi dari Dealer Hino Jabodetabek." />
     <meta property="og:url" content="https://dealerhinojakartabarat.com/artikel" />
