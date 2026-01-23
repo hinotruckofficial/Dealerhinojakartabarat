@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ Title -->
-    <title>Dealer Hino Jabodetabek | Hino 500 Series Resmi</title>
+    <title>Dealer Hino Jakarta | Hino 500 Series Resmi</title>
 
     <!-- ✅ Meta Description -->
     <meta
       name="description"
-      content="Dealer Hino Jabodetabek Resmi - Hubungi 0856-9291-1733 untuk informasi Hino 500 Series, harga, promo, dan pemesanan unit terbaru. Layanan cepat & terpercaya."
+      content="Dealer Hino Jakarta Resmi - Hubungi 0856-9291-1733 untuk informasi Hino 500 Series, harga, promo, dan pemesanan unit terbaru. Layanan cepat & terpercaya."
     />
 
     <!-- ✅ Meta Keywords -->
     <meta
       name="keywords"
-      content="Dealer Hino Jabodetabek, hino 500 series, hino tangerang, dealer hino resmi, harga hino 500, promo hino 500, hino tangerang resmi, sales hino tangerang, hino indonesia, dealer hino terdekat, hino jabodetabek, truk hino 500, spesifikasi hino 500, cicilan truk hino, kredit hino 500, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
+      content="Dealer Hino Jakarta, hino 500 series, hino tangerang, dealer hino resmi, harga hino 500, promo hino 500, hino tangerang resmi, sales hino tangerang, hino indonesia, dealer hino terdekat, hino jabodetabek, truk hino 500, spesifikasi hino 500, cicilan truk hino, kredit hino 500, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
     />
 
     <!-- ✅ Canonical URL -->
@@ -26,13 +26,13 @@
     <meta name="robots" content="index, follow" />
 
     <!-- ✅ Brand Title (untuk browser dan share link) -->
-    <meta name="application-name" content="Dealer Hino Jabodetabek" />
-    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jabodetabek" />
+    <meta name="application-name" content="Dealer Hino Jakarta" />
+    <meta name="apple-mobile-web-app-title" content="Dealer Hino Jakarta" />
 
     <!-- ✅ Open Graph (Facebook, WhatsApp, LinkedIn, dsb) -->
-    <meta property="og:site_name" content="Dealer Hino Jabodetabek" />
+    <meta property="og:site_name" content="Dealer Hino Jakarta" />
     <meta property="og:title" content="Dealer Hino Jabodetabek | Hino 500 Series Resmi" />
-    <meta property="og:description" content="Dealer Hino Jabodetabek Resmi - Hubungi 0856-9291-1733 untuk informasi Hino 500 Series, harga, dan promo terbaru." />
+    <meta property="og:description" content="Dealer Hino Jakarta Resmi - Hubungi 0856-9291-1733 untuk informasi Hino 500 Series, harga, dan promo terbaru." />
     <meta property="og:url" content="https://dealerhinojakartabarat.com/hino500" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino.png" />
@@ -52,12 +52,12 @@
       "@context": "https://schema.org",
       "@type": "AutoDealer",
       "@id": "https://dealerhinojakartabarat.com/#dealer",
-      "name": "Dealer Hino Jabodetabek",
-      "alternateName": "Dealer Resmi Hino Jabodetabek",
+      "name": "Dealer Hino Jakarta",
+      "alternateName": "Dealer Resmi Hino Jakarta",
       "url": "https://dealerhinojakartabarat.com/",
       "image": "https://dealerhinojakartabarat.com/img/hino500produk.png",
       "logo": "https://dealerhinojakartabarat.com/favicon_512.png",
-      "description": "Dealer Hino Jabodetabek adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.",
+      "description": "Dealer Hino Jakarta adalah Authorized Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.",
       "telephone": "+62-856-9291-1733",
       "priceRange": "$$$",
       "address": {
