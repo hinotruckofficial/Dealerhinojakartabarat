@@ -213,7 +213,7 @@ try {
     <section class="hero">
         <h1>Dealer Hino Jakarta – Authorized Dealer Hino Jabodetabek</h1>
       <div class="slider">
-        <img src="img/Euro 4 Hino 300.jpeg" class="slide active" alt="Banner 1" />
+        <img src="img/Euro 4 Hino 300.jpeg" class="slide active" alt="Dealer Hino Jakarta - Truk Hino 300 Euro 4" />
         <img src="img/Euro 4 Hino 500.jpeg" class="slide" alt="Banner 2" />
         <img src="img/Euro 4 Hino Bus.jpeg" class="slide" alt="Banner 3" />
       </div>
