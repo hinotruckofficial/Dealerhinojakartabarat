@@ -45,12 +45,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ SEO Title -->
-    <title>Kontak Dealer Hino Jabodetabek | Authorized Hino Dealer</title>
+    <title>Kontak Dealer Hino Jakarta | Authorized Hino Dealer</title>
 
     <!-- ✅ Meta Description (CTA kuat) -->
     <meta
       name="description"
-      content="Hubungi Dealer Hino Jabodetabek. Konsultasi harga truk Hino, promo terbaru, dan kredit mudah. Telepon & WhatsApp 0856-9291-1733."
+      content="Hubungi Dealer Hino Jakarta. Konsultasi harga truk Hino, promo terbaru, dan kredit mudah. Telepon & WhatsApp 0856-9291-1733."
     />
 
     <!-- ✅ Canonical -->
@@ -59,15 +59,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <!-- ✅ Meta Keywords (ringkas & lokal) -->
     <meta
       name="keywords"
-      content="kontak Dealer Hino Jabodetabek, sales hino tangerang, alamat Dealer Hino Jabodetabek, hubungi dealer hino, dealer hino, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
+      content="kontak Dealer Hino Jakarta, sales hino Jakarta, alamat Dealer Hino Jakarta, hubungi dealer hino, dealer hino, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang"
     />
 
     <!-- ✅ Open Graph -->
-    <meta property="og:site_name" content="Dealer Hino Jabodetabek" />
-    <meta property="og:title" content="Kontak Dealer Hino Jabodetabek" />
+    <meta property="og:site_name" content="Dealer Hino Jakarta" />
+    <meta property="og:title" content="Kontak Dealer Hino Jakarta" />
     <meta
       property="og:description"
-      content="Hubungi Dealer Hino Jabodetabek untuk informasi harga, promo & kredit truk Hino. WA & Telp 0856-9291-1733."
+      content="Hubungi Dealer Hino Jakarta untuk informasi harga, promo & kredit truk Hino. WA & Telp 0856-9291-1733."
     />
     <meta property="og:url" content="https://dealerhinojakartabarat.com/contact" />
     <meta property="og:type" content="website" />
@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kontak Dealer Hino Jabodetabek" />
+    <meta name="twitter:title" content="Kontak Dealer Hino Jakarta" />
     <meta
       name="twitter:description"
       content="Sales Hino Jakarta. Hubungi sekarang untuk harga & promo truk Hino."
@@ -89,11 +89,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       "@type": "AutoDealer",
       "@id": "https://dealerhinojakartabarat.com/contact#autodealer",
       "name": "Dealer Hino Jabodetabek",
-      "alternateName": "Dealer Hino Jabodetabek Resmi",
+      "alternateName": "Dealer Hino Jakarta Resmi",
       "url": "https://dealerhinojakartabarat.com/contact",
       "logo": "https://dealerhinojakartabarat.com/favicon_512.png",
       "image": "https://dealerhinojakartabarat.com/img/hino.png",
-      "description": "Kontak Dealer Hino Jabodetabek resmi. Melayani penjualan truk Hino Dutro, Hino 300 & 500 Series dengan promo dan kredit terbaik.",
+      "description": "Kontak Dealer Hino Jakarta resmi. Melayani penjualan truk Hino Dutro, Hino 300 & 500 Series dengan promo dan kredit terbaik.",
       "telephone": "+62-856-9291-1733",
       "priceRange": "$$",
       "address": {
