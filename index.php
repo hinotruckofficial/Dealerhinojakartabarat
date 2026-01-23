@@ -46,10 +46,10 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ✅ Judul utama -->
-    <title>Dealer Hino Jakarta | Authorized Hino Dealer</title>
+    <title>Dealer Hino Jakarta | Harga Truk Hino Terbaru & Promo 2026</title>
 
     <!-- ✅ Deskripsi SEO -->
-    <meta name="description" content="Dealer Hino Jakarta Siap Memberikan Harga Terbaik Untuk Truk Hino Dan Bus Hino. Dealer Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
+    <meta name="description" content="Dealer Hino Jakarta resmi. Jual truk Hino Dutro, Ranger, Harga terbaik, DP ringan, Hino resmi Jakarta, Bekasi & Tangerang. Jual truk dan bus Hino, harga terbaik, kredit mudah & servis resmi.">
     <meta name="keywords" content="dealer hino jakarta, dealer hino jakarta barat, harga truk hino jakarta, dealer hino resmi, promo truk hino">
     <meta name="author" content="Dealer Hino Jakarta">
 
@@ -269,7 +269,7 @@ try {
     <!-- Section: Promo Utama -->
     <section id="promo-utama" class="promo-section fade-element">
       <div class="promo-text">
-        <h2>Dapatkan Harga dan Penawaran Terbaik Langsung dari Dealer Hino Jakarta Authorized Dealer Hino</h2>
+        <h2>Dealer Hino Jakarta Resmi yang memberikan harga terbaik.</h2>
         <ul>
           <li>Ingin harga terbaik untuk semua jenis truk Hino?</li>
           <li>Bingung memilih kendaraan yang tepat untuk bisnis Anda?</li>
