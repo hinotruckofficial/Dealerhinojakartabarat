@@ -210,7 +210,8 @@ try {
     </header>
 
     <!-- Hero -->
-   <section class="hero">
+  <!-- Hero -->
+<section class="hero">
   <h1>Dealer Hino Jakarta – Authorized Dealer Hino Jabodetabek</h1>
 
   <p class="hero-description">
@@ -222,16 +223,23 @@ try {
   </p>
 
   <div class="slider">
-    ...
+    <img src="img/Euro 4 Hino 300.jpeg" 
+         class="slide active" 
+         alt="Dealer Hino Jakarta - Truk Hino 300 Euro 4" 
+         loading="eager" />
+
+    <img src="img/Euro 4 Hino 500.jpeg" 
+         class="slide" 
+         alt="Dealer Hino Jakarta - Truk Hino 500 Euro 4" 
+         loading="lazy" />
+
+    <img src="img/Euro 4 Hino Bus.jpeg" 
+         class="slide" 
+         alt="Dealer Hino Jakarta - Bus Hino Euro 4" 
+         loading="lazy" />
   </div>
 </section>
 
-      <div class="slider">
-        <img src="img/Euro 4 Hino 300.jpeg" class="slide active" alt="Dealer Hino Jakarta - Truk Hino 300 Euro 4" />
-        <img src="img/Euro 4 Hino 500.jpeg" class="slide" alt="Banner 2" />
-        <img src="img/Euro 4 Hino Bus.jpeg" class="slide" alt="Banner 3" />
-      </div>
-    </section>
 
     <!-- Section: Promo Utama -->
     <section id="promo-utama" class="promo-section fade-element">
