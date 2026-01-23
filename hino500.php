@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +31,7 @@
 
     <!-- ✅ Open Graph (Facebook, WhatsApp, LinkedIn, dsb) -->
     <meta property="og:site_name" content="Dealer Hino Jakarta" />
-    <meta property="og:title" content="Dealer Hino Jabodetabek | Hino 500 Series Resmi" />
+    <meta property="og:title" content="Dealer Hino Jakarta | Hino 500 Series Resmi" />
     <meta property="og:description" content="Dealer Hino Jakarta Resmi - Hubungi 0856-9291-1733 untuk informasi Hino 500 Series, harga, dan promo terbaru." />
     <meta property="og:url" content="https://dealerhinojakartabarat.com/hino500" />
     <meta property="og:type" content="website" />
@@ -42,7 +42,7 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Dealer Hino Jabodetabek",
+      "name": "Dealer Hino Jakarta",
       "url": "https://dealerhinojakartabarat.com"
     }
     </script>
