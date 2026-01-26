@@ -46,7 +46,7 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
     <title>Artikel & Promo Truk Hino Terbaru | Dealer Hino Jakarta</title>
 
     <!-- ✅ Meta Description (Informatif + CTA Halus) -->
-    <meta name="description" content="Artikel terbaru seputar truk Hino: harga, promo, spesifikasi Hino Dutro, Hino 300 & 500 Series. Update resmi dari Dealer Hino Jabodetabek Jabodetabek." />
+    <meta name="description" content="Artikel terbaru seputar truk Hino: harga, promo, spesifikasi Hino Dutro, Hino 300 & 500 Series. Update resmi dari Dealer Hino Jakarta." />
 
     <!-- ✅ Meta Keywords (khusus artikel, tidak spam) -->
     <meta name="keywords" content="artikel hino, berita hino, promo truk hino, harga truk hino terbaru, spesifikasi hino dutro, hino 300, hino 500, Dealer Hino Jabodetabek, hino dutro, hino ranger, dealer hino cikupa, dealer resmi hino tangerang, hino tangerang" />
@@ -60,7 +60,7 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
     <!-- ✅ Open Graph (Share Sosial Media) -->
     <meta property="og:site_name" content="Dealer Hino Jakarta" />
     <meta property="og:title" content="Artikel & Promo Truk Hino Terbaru" />
-    <meta property="og:description" content="Update artikel Hino terbaru: harga, promo, dan spesifikasi truk Hino resmi dari Dealer Hino Jabodetabek." />
+    <meta property="og:description" content="Update artikel Hino terbaru: harga, promo, dan spesifikasi truk Hino resmi dari Dealer Hino Jakarta." />
     <meta property="og:url" content="https://dealerhinojakartabarat.com/artikel" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://dealerhinojakartabarat.com/img/hino300produk.png" />
@@ -68,7 +68,7 @@ $artikel      = array_slice($artikelData, $offset, $perPage);
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Artikel & Promo Truk Hino Terbaru" />
-    <meta name="twitter:description" content="Artikel lengkap truk Hino: harga, promo & spesifikasi resmi Dealer Hino Jabodetabek." />
+    <meta name="twitter:description" content="Artikel lengkap truk Hino: harga, promo & spesifikasi resmi Dealer Hino Jakarta." />
     <meta name="twitter:image" content="https://dealerhinojakartabarat.com/img/hino300produk.png" />
 
     <!-- JSON Schema -->
