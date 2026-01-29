@@ -1,46 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-                        
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://dealerhinojakartabarat.com/</loc>
-        <lastmod>2026-01-15T10:08:48+00:00</lastmod>
-        <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://dealerhinojakartabarat.com/</loc>
-        <lastmod>2026-01-15T10:08:48+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://dealerhinojakartabarat.com/hino300</loc>
-        <lastmod>2026-01-15T08:35:59+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://dealerhinojakartabarat.com/hino500</loc>
-        <lastmod>2026-01-15T09:29:25+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://dealerhinojakartabarat.com/hinobus</loc>
-        <lastmod>2026-01-15T09:29:25+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://dealerhinojakartabarat.com/artikel</loc>
-        <lastmod>2026-01-15T10:08:48+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://dealerhinojakartabarat.com/contact</loc>
-        <lastmod>2026-01-15T09:29:25+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
+  <!-- HOMEPAGE -->
+  <url>
+    <loc>https://dealerhinojakartabarat.com/</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- MONEY PAGE -->
+  <url>
+    <loc>https://dealerhinojakartabarat.com/dealer-hino-jakarta</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- PRODUK -->
+  <url>
+    <loc>https://dealerhinojakartabarat.com/hino300</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://dealerhinojakartabarat.com/hino500</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://dealerhinojakartabarat.com/hinobus</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ARTIKEL SEO -->
+  <url>
+    <loc>https://dealerhinojakartabarat.com/artikel/perbedaan-hino-136-hdx-dan-136-md</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.70</priority>
+  </url>
 
 </urlset>
