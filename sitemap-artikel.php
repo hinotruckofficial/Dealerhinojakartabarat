@@ -52,20 +52,32 @@ try {
         $stmt->execute();
         $result = $stmt->get_result();
 
-        while ($row = $result->fetch_assoc()) {
-            $slug = trim($row['slug']);
-            if ($slug === '') continue;
+       $today = date('Y-m-d');
 
-            $lastmod = !empty($row['tanggal'])
-                ? date('Y-m-d', strtotime($row['tanggal']))
-                : date('Y-m-d');
+while ($row = $result->fetch_assoc()) {
 
-            // ✅ URL SEO FRIENDLY /artikel/slug
-            $encoded_slug = rawurlencode($slug);
-            $url = $base_url . '/artikel/' . $encoded_slug;
+    // 1️⃣ Ambil & validasi slug
+    $slug = trim($row['slug']);
+    if ($slug === '') continue;
 
-            printUrl($url, $lastmod, 'weekly', '0.8');
-        }
+    // 2️⃣ Tentukan lastmod
+    $lastmod = !empty($row['tanggal'])
+        ? date('Y-m-d', strtotime($row['tanggal']))
+        : $today;
+
+    // 3️⃣ Bangun URL artikel
+    $encoded_slug = rawurlencode($slug);
+    $url = $base_url . '/artikel/' . $encoded_slug;
+
+    // 4️⃣ LOGIKA CERDAS: artikel baru vs lama
+    $changefreq = ($lastmod >= date('Y-m-d', strtotime('-14 days')))
+        ? 'weekly'
+        : 'monthly';
+
+    // 5️⃣ Cetak ke sitemap
+    printUrl($url, $lastmod, $changefreq, '0.7');
+}
+
 
         $stmt->close();
     }
