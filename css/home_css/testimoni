@@ -1,0 +1,48 @@
+/* ===== TESTIMONI ===== */
+.testimonial-section {
+    background: #f4f6f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonial-section .section-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #0a1950;
+}
+
+.testimonial-slider {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.testimonial-item {
+    display: none;
+    font-size: 18px;
+    color: #333;
+    transition: opacity 0.5s ease;
+}
+
+.testimonial-item.active {
+    display: block;
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.testimonial-item h4 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #000;
+}
+
+.stars {
+    color: #f5a623;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
