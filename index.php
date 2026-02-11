@@ -160,6 +160,23 @@ try {
       ]
     }
     </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Dealer Hino Jakarta Barat",
+  "image": "https://dealerhinojakartabarat.com/img/hino300produk.png",
+  "url": "https://dealerhinojakartabarat.com/",
+  "telephone": "+6285692911733",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "38"
+  }
+}
+</script>
+
     
     <script type="application/ld+json">
     {
