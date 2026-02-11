@@ -630,23 +630,27 @@ try {
     }
 }
 </style>
+      
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    let testimonials = document.querySelectorAll('.testimonial-item');
+    const testimonials = document.querySelectorAll('.testimonial-item');
     let index = 0;
 
     function showTestimonial() {
         testimonials.forEach(item => item.classList.remove('active'));
+
         index++;
-        if(index > testimonials.length) {
-            index = 1;
+        if (index >= testimonials.length) {
+            index = 0;
         }
-        testimonials[index-1].classList.add('active');
+
+        testimonials[index].classList.add('active');
     }
 
     setInterval(showTestimonial, 4000);
 });
 </script>
+
 
 
   </body>
