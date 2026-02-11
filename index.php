@@ -412,6 +412,43 @@ try {
       </div>
     </section>
 
+      <!-- ================= TESTIMONI ================= -->
+<section class="testimonial-section fade-element">
+  <div class="container">
+    <h2 class="section-title">Testimoni Pelanggan Dealer Hino Jakarta Barat</h2>
+
+    <div class="testimonial-slider">
+
+      <div class="testimonial-item active">
+        <p>
+          "Proses pembelian Hino Dutro di Dealer Hino Jakarta Barat sangat cepat dan dibantu sampai ACC leasing. Unit dikirim tepat waktu dan sesuai spesifikasi."
+        </p>
+        <div class="stars">★★★★★</div>
+        <h4>- PT Sumber Logistik, Jakarta</h4>
+      </div>
+
+      <div class="testimonial-item">
+        <p>
+          "Harga truk Hino Jakarta sangat kompetitif. Sales responsif dan membantu proses kredit sampai selesai."
+        </p>
+        <div class="stars">★★★★★</div>
+        <h4>- CV Maju Jaya Transport</h4>
+      </div>
+
+      <div class="testimonial-item">
+        <p>
+          "Dealer Hino Jakarta Barat terpercaya untuk pembelian armada perusahaan. After sales service sangat memuaskan."
+        </p>
+        <div class="stars">★★★★★</div>
+        <h4>- PT Trans Nusantara</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ================= END TESTIMONI ================= -->
+
+
     <!-- Contact Section -->
     <div class="contact-container fade-element">
       <div class="contact-tabs">
