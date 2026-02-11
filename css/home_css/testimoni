@@ -20,14 +20,15 @@
 
 .testimonial-item {
     display: none;
-    font-size: 18px;
-    color: #333;
+    opacity: 0;
     transition: opacity 0.5s ease;
 }
 
 .testimonial-item.active {
     display: block;
+    opacity: 1;
 }
+
 
 .testimonial-item p {
     font-style: italic;
