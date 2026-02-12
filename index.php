@@ -436,7 +436,7 @@ try {
   <div class="slides">
     <h2 class="section-title">Testimoni Pelanggan Dealer Hino Jakarta Barat</h2>
 
-    <div class="testimonial-slider">
+    <div class="slider">
 
       <div class="testimonial-item active">
         <p>
