@@ -433,36 +433,31 @@ try {
 
       <!-- ================= TESTIMONI ================= -->
 <div class="testimonial-slider">
-  <div class="slides">
-    <h2 class="section-title">Testimoni Pelanggan Dealer Hino Jakarta Barat</h2>
+  <h2 class="section-title">Testimoni Pelanggan Dealer Hino Jakarta Barat</h2>
 
-    <div class="slider">
+  <div class="viewport">
+    <div class="slides">
 
-      <div class="testimonial-item active">
-        <p>
-          "Proses pembelian Hino Dutro di Dealer Hino Jakarta Barat sangat cepat dan dibantu sampai ACC leasing. Unit dikirim tepat waktu dan sesuai spesifikasi."
-        </p>
+      <div class="testimonial-item">
+        <p>"Proses pembelian Hino Dutro sangat cepat dan profesional."</p>
         <div class="stars">★★★★★</div>
         <h4>- PT Sumber Logistik, Jakarta</h4>
       </div>
 
       <div class="testimonial-item">
-        <p>
-          "Harga truk Hino Jakarta sangat kompetitif. Sales responsif dan membantu proses kredit sampai selesai."
-        </p>
+        <p>"Harga truk Hino Jakarta kompetitif, sales sangat responsif."</p>
         <div class="stars">★★★★★</div>
         <h4>- CV Maju Jaya Transport</h4>
       </div>
 
       <div class="testimonial-item">
-        <p>
-          "Dealer Hino Jakarta Barat terpercaya untuk pembelian armada perusahaan. After sales service sangat memuaskan."
-        </p>
+        <p>"Dealer terpercaya, after sales service sangat membantu."</p>
         <div class="stars">★★★★★</div>
         <h4>- PT Trans Nusantara</h4>
       </div>
 
-   </div>
+    </div>
+  </div>
 
   <div class="controls">
     <span class="dot active"></span>
@@ -470,6 +465,7 @@ try {
     <span class="dot"></span>
   </div>
 </div>
+
 <!-- ================= END TESTIMONI ================= -->
 
 
@@ -653,6 +649,36 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     setInterval(showTestimonial, 4000);
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelector('.slides');
+    const items = document.querySelectorAll('.testimonial-item');
+    const dots = document.querySelectorAll('.dot');
+
+    let index = 0;
+
+    function updateSlider(i) {
+        slides.style.transform = `translateX(-${i * 100}%)`;
+
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[i].classList.add('active');
+
+        index = i;
+    }
+
+    function nextSlide() {
+        index++;
+        if (index >= items.length) index = 0;
+        updateSlider(index);
+    }
+
+    setInterval(nextSlide, 4000);
+
+    dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => updateSlider(i));
+    });
 });
 </script>
 
