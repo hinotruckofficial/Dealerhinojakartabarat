@@ -432,8 +432,8 @@ try {
     </section>
 
       <!-- ================= TESTIMONI ================= -->
-<section class="testimonial-section fade-element">
-  <div class="container">
+<div class="testimonial-slider">
+  <div class="slides">
     <h2 class="section-title">Testimoni Pelanggan Dealer Hino Jakarta Barat</h2>
 
     <div class="testimonial-slider">
@@ -462,9 +462,14 @@ try {
         <h4>- PT Trans Nusantara</h4>
       </div>
 
-    </div>
+   </div>
+
+  <div class="controls">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
   </div>
-</section>
+</div>
 <!-- ================= END TESTIMONI ================= -->
 
 
